@@ -27,7 +27,9 @@ let index = 1;
 let backgroundIndex = 1;
 
 // Home Buttons
-const navButton = document.getElementsByClassName(`main-site-header`)[0];
+const navButton = document.getElementsByClassName(`main-site-nav-cover`)[0];
+const navContainer = document.getElementsByClassName('main-site-nav-container')[0];
+const navigation = document.getElementsByClassName('main-site-nav')[0];
 const homeContact = document.getElementsByClassName(`home-contact`)[0];
 const footerButton = document.getElementsByClassName(`site-footer`)[0];
 const logoContainer = document.getElementsByClassName(`logo-container`)[0];
@@ -65,7 +67,7 @@ const expoundings = [
 // An array of call to action phrases matched w/ the corresponding main & sub headers for the button.
 const callsToAction = [`Get In Touch`, `Learn More`, `Check Out My Work`, `Learn More`, `Get In Touch`, `Learn More`, `Get In Touch`];
 
-animationArray = [`flipInX`, `fadeInDownBig`, `fadeInUpBig`, `flipInY`, `fadeInLeftBig`, `fadeInRightBig`, `lightSpeedIn`, `rotateDownLeft`, `zoomInUp` , `rotateDownRight`, `zoomInDown`, `rollIn`];
+animationArray = [`flipInX`, `fadeInDownBig`, `fadeInUpBig`, `flipInY`, `fadeInLeftBig`, `fadeInRightBig`, `lightSpeedIn`, `rotateInDownLeft`, `zoomInUp` , `rotateInDownRight`, `zoomInDown`, `rollIn`];
 
 
 
@@ -185,6 +187,21 @@ function animateHeader(){
 }
 setInterval(animateHeader, 10000);
 
+let revealed = 0;
+
+
+
+function revealNavigation() {
+        navigation.style.display = `flex`;
+        revealed = 1;
+}
 navButton.addEventListener('click', () => {
-    
+    navContainer.classList.toggle('nav-full-height');
+    if(revealed === 0){
+        setTimeout(revealNavigation, 1500);
+    }
+    if(revealed === 1){
+        revealed = 0;
+        navigation.style.display = `none`;
+    }    
 })
