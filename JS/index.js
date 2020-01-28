@@ -5,6 +5,9 @@
 //////////////////////////////////////////////
 //  Variables
 
+/* Initialize separate variable to contain the random number to insure the right animation is removed before another one is added on. */
+let currentNumber;
+
 const homeScreen = document.getElementById(`screen`);
 
 // Colors
@@ -40,7 +43,7 @@ const contactIcon = document.getElementsByClassName(`home-contact-envelope`)[0];
 
 // An array of introductions to go into the main header.
 const introductions = [
-    `Hello, I'm Nathan`,
+    `Hi, I'm Nathan Cluff!`,
     `I Love Values`,
      `Digital Creativity`,
     `Forever Learning`,
@@ -61,6 +64,8 @@ const expoundings = [
 
 // An array of call to action phrases matched w/ the corresponding main & sub headers for the button.
 const callsToAction = [`Get In Touch`, `Learn More`, `Check Out My Work`, `Learn More`, `Get In Touch`, `Learn More`, `Get In Touch`];
+
+animationArray = [`flipInX`, `fadeInDownBig`, `fadeInUpBig`, `flipInY`, `fadeInLeftBig`, `fadeInRightBig`, `lightSpeedIn`, `rotateDownLeft`, `zoomInUp` , `rotateDownRight`, `zoomInDown`, `rollIn`];
 
 
 
@@ -92,8 +97,16 @@ const headerHome = siteHeader.changeHeader(`Hi, I'm Nathan Cluff!`, `Creative Fr
 const HeaderHome = siteHeader2.changeHeader(`Hi, I'm Nathan Cluff!`, `Creative Front End Developer | Husband | Father | Chiefs & Lakers Fan | Foodie | & More`, `Get In Touch`);
 const headerArray = [headerHome, HeaderHome];
 
+function addAnimation(num){
+    headingContainer.classList.add(animationArray[num]);
+    currentNumber = num;
+    console.log(currentNumber);
+    console.log(animationArray);
+    return currentNumber;
+}
+
 function transitionAnimation(){
-    headingContainer.classList.remove(headerAnimation);
+    headingContainer.classList.remove(animationArray[currentNumber]);
     console.log(`Animation Removed!`);
 }
 function changeScreenColor(){
@@ -105,6 +118,8 @@ function animateHeader(){
 
     // Checking if index is less than the introductions array length.  <-- Main Header Content
     if(index < introductions.length){
+        // Get a random number
+        let randomNumber = Math.floor(Math.random() * 12);
         // Transitioning the background color with the animation.
         changeScreenColor();
         navButton.onmouseover = function(){
@@ -143,7 +158,8 @@ function animateHeader(){
             homeCTA.style.opacity = .75;
         }
         // Adding the incoming animation for the heading container.
-        headingContainer.classList.add(headerAnimation);
+        // headingContainer.classList.add(headerAnimation);
+        addAnimation(randomNumber);
         // Initializing a variable to change the header's content.
         let homeHeader = siteHeader.changeHeader(introductions[index], expoundings[index], callsToAction[index]);
             console.log(index);
