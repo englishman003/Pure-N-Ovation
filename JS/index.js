@@ -25,13 +25,14 @@ const homeCTA = document.getElementsByClassName('home-cta')[0];  // Grabbing the
 const headerAnimation = `rotateInDownLeft`;
 let index = 1;
 let backgroundIndex = 1;
+const previousBackgroundIndex = 6;
 
 // Home Buttons
 const navButton = document.getElementsByClassName(`main-site-nav-cover`)[0];
 const navContainer = document.getElementsByClassName('main-site-nav-container')[0];
 const navigation = document.getElementsByClassName('main-site-nav')[0];
 const homeContact = document.getElementsByClassName(`home-contact`)[0];
-const footerButton = document.getElementsByClassName(`site-footer`)[0];
+const footerButton = document.getElementsByClassName(`site-footer-button`)[0];
 const logoContainer = document.getElementsByClassName(`logo-container`)[0];
 const myLogo = document.getElementsByClassName(`my-logo`)[0];
 const navBars = document.getElementsByClassName(`nav-bars`)[0];
@@ -120,6 +121,7 @@ function animateHeader(){
 
     // Checking if index is less than the introductions array length.  <-- Main Header Content
     if(index < introductions.length){
+        console.log(backgroundIndex);
         // Get a random number
         let randomNumber = Math.floor(Math.random() * 12);
         // Transitioning the background color with the animation.
@@ -172,7 +174,19 @@ function animateHeader(){
             // Set delay for the removal of the incoming animation.
             setTimeout(transitionAnimation, 2500);
         // If background index equals the colors array length, backgroundIndex = 0;
-        if(backgroundIndex === colors.length){
+        if(backgroundIndex === colors.length && previousBackgroundIndex === 6){
+            navButton.onmouseover = function(){
+                navBars.style.color = colors[previousBackgroundIndex];
+            }
+            footerButton.onmouseover = function(){
+                footerButton.style.color = colors[previousBackgroundIndex];
+            }
+            homeContact.onmouseover = function(){
+                contactIcon.style.color = colors[previousBackgroundIndex];
+            }
+            logoContainer.onmouseover = function(){
+                myLogo.style.fill = colors[previousBackgroundIndex];
+            }
             backgroundIndex = 0;
         }
         // If index is not less than introductions array length, check if it is strictly equal to its length.
