@@ -38,6 +38,10 @@ const myLogo = document.getElementsByClassName(`my-logo`)[0];
 const navBars = document.getElementsByClassName(`nav-bars`)[0];
 const contactIcon = document.getElementsByClassName(`home-contact-envelope`)[0];
 
+// Footer
+const footer = document.getElementsByClassName(`site-footer`)[0];
+const socialMediaLink = document.getElementsByClassName(`social-media-link`);
+
 
 //////////////////////////////////////////////
 //   Objects
@@ -218,4 +222,31 @@ navButton.addEventListener('click', () => {
         revealed = 0;
         navigation.style.display = `none`;
     }    
+})
+
+let socialMediaRevealed = false;
+
+function revealSocialMedia(){
+    socialMediaLink[0].style.display = `flex`;
+    socialMediaLink[1].style.display = `flex`;
+    socialMediaLink[2].style.display = `flex`;
+    socialMediaLink[3].style.display = `flex`;
+    socialMediaRevealed = true;
+}
+function hideSocialMedia(){
+    socialMediaLink[0].style.display = `none`;
+    socialMediaLink[1].style.display = `none`;
+    socialMediaLink[2].style.display = `none`;
+    socialMediaLink[3].style.display = `none`;
+    socialMediaRevealed = false;
+}
+
+footerButton.addEventListener(`click`, () => {
+    footer.classList.toggle(`reveal-footer`);
+    if(socialMediaRevealed === false){
+      setTimeout(revealSocialMedia, 1000);  
+    }
+    else if(socialMediaRevealed === true){
+        hideSocialMedia();
+    }
 })
