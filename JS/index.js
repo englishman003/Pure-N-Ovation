@@ -48,7 +48,6 @@
 
     //////////////////////////////////////////////
     //   Classes
-        /* Page Elements*/
 
         // Home Heading
             class Header {
