@@ -74,7 +74,7 @@
 
             /* Method Usage*/
 
-                // Chage Header Method - Home Header
+                // Change Header Method - Home Header
                 const headerHome = siteHeader.changeHeader(`Hi, I'm Nathan Cluff!`, `Creative Front End Developer | Husband | Father | Chiefs & Lakers Fan | Foodie | & More`, `Get In Touch`);
 
         /*  Arrays  */
