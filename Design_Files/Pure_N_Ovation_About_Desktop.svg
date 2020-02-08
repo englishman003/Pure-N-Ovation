@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920px"
+   height="1080px"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Pure_N_Ovation_About_Desktop.svg">
+  <defs
+     id="defs6191" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="967.39319"
+     inkscape:cy="440.84365"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6749"
+       color="#3f3fff"
+       opacity="0"
+       spacingx="16"
+       spacingy="12" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6194">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Grid Desktop"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0047ab;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1380"
+       width="1920"
+       height="1080"
+       x="0"
+       y="-2.2737368e-13" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="About Page - Base"
+     style="display:none">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.83045912;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1388"
+       width="112"
+       height="56"
+       x="904"
+       y="96"
+       ry="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.5742712;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1394"
+       width="320"
+       height="660"
+       x="640"
+       y="180" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.5742712;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1394-9"
+       width="320"
+       height="660"
+       x="960"
+       y="180" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411"
+       width="80"
+       height="168"
+       x="560"
+       y="426" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.05524"
+       y="514.41406"
+       id="text1415"><tspan
+         sodipodi:role="line"
+         id="tspan1413"
+         x="454.05524"
+         y="514.41406">3 Icons Spaced Evenly</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-8"
+       width="80"
+       height="168"
+       x="1280"
+       y="426" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1310.0553"
+       y="514.41406"
+       id="text1415-1"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6"
+         x="1310.0553"
+         y="514.41406">Arrow Buttons</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path862"
+       sodipodi:sides="3"
+       sodipodi:cx="1320"
+       sodipodi:cy="542"
+       sodipodi:r1="24"
+       sodipodi:r2="12"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 1320,566 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+       inkscape:transform-center-y="6.0000002"
+       inkscape:transform-center-x="2.9138962e-05" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path862-3"
+       sodipodi:sides="3"
+       sodipodi:cx="1320"
+       sodipodi:cy="-478"
+       sodipodi:r1="24"
+       sodipodi:r2="12"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 1320,-454 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+       inkscape:transform-center-y="-5.9999996"
+       inkscape:transform-center-x="2.9138962e-05"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="910.0553"
+       y="128.41406"
+       id="text1415-1-9"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6-1"
+         x="910.0553"
+         y="128.41406">'Floor' Number</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:9.0267086;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1382"
+       width="640"
+       height="660"
+       x="640"
+       y="180" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="About Page - 'Floor' Structure">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:9.0267086;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1382-0"
+       width="640"
+       height="660"
+       x="640"
+       y="180" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.83045912;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1388-5"
+       width="112"
+       height="56"
+       x="904"
+       y="96.000023"
+       ry="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-2"
+       width="80"
+       height="168"
+       x="560"
+       y="426" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.05524"
+       y="514.41406"
+       id="text1415-4"><tspan
+         sodipodi:role="line"
+         id="tspan1413-2"
+         x="454.05524"
+         y="514.41406">3 Icons Spaced Evenly</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-8-0"
+       width="80"
+       height="168"
+       x="1280"
+       y="426" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1310.0553"
+       y="514.41406"
+       id="text1415-1-2"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6-7"
+         x="1310.0553"
+         y="514.41406">Arrow Buttons</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path862-9"
+       sodipodi:sides="3"
+       sodipodi:cx="1320"
+       sodipodi:cy="542"
+       sodipodi:r1="24"
+       sodipodi:r2="12"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 1320,566 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+       inkscape:transform-center-y="6.0000002"
+       inkscape:transform-center-x="2.9138962e-05" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path862-3-7"
+       sodipodi:sides="3"
+       sodipodi:cx="1320"
+       sodipodi:cy="-478.00003"
+       sodipodi:r1="24"
+       sodipodi:r2="12"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 1320,-454.00003 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+       inkscape:transform-center-y="-5.9999996"
+       inkscape:transform-center-x="2.9138962e-05"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="910.0553"
+       y="128.41408"
+       id="text1415-1-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6-1-9"
+         x="910.0553"
+         y="128.41408">'Floor' Number</tspan></text>
+    <g
+       transform="translate(1120,-6)"
+       id="g997-3">
+      <rect
+         y="180"
+         x="640"
+         height="660"
+         width="640"
+         id="rect1382-0-8"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:9.0267086;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         ry="0"
+         y="96.000023"
+         x="904"
+         height="56"
+         width="112"
+         id="rect1388-5-2"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.83045912;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         y="426"
+         x="560"
+         height="168"
+         width="80"
+         id="rect1411-2-6"
+         style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text1415-4-6"
+         y="514.41406"
+         x="454.05524"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="514.41406"
+           x="454.05524"
+           id="tspan1413-2-0"
+           sodipodi:role="line">3 Icons Spaced Evenly</tspan></text>
+      <rect
+         y="426"
+         x="1280"
+         height="168"
+         width="80"
+         id="rect1411-8-0-5"
+         style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:9.66091728;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text1415-1-2-1"
+         y="514.41406"
+         x="1310.0553"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="514.41406"
+           x="1310.0553"
+           id="tspan1413-6-7-0"
+           sodipodi:role="line">Arrow Buttons</tspan></text>
+      <path
+         inkscape:transform-center-x="2.9138962e-05"
+         inkscape:transform-center-y="6.0000002"
+         d="m 1320,566 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="12"
+         sodipodi:r1="24"
+         sodipodi:cy="542"
+         sodipodi:cx="1320"
+         sodipodi:sides="3"
+         id="path862-9-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         transform="scale(1,-1)"
+         inkscape:transform-center-x="2.9138962e-05"
+         inkscape:transform-center-y="-5.9999996"
+         d="m 1320,-454.00003 -10.3923,-18 -10.3923,-18 20.7846,0 20.7846,0 -10.3923,18 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="12"
+         sodipodi:r1="24"
+         sodipodi:cy="-478.00003"
+         sodipodi:cx="1320"
+         sodipodi:sides="3"
+         id="path862-3-7-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:33.33333206;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <text
+         id="text1415-1-9-6-7"
+         y="128.41408"
+         x="910.0553"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="128.41408"
+           x="910.0553"
+           id="tspan1413-6-1-9-4"
+           sodipodi:role="line">'Floor' Number</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-2-7"
+       width="80"
+       height="640"
+       x="180.00002"
+       y="-1280"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-2-7-4"
+       width="80"
+       height="80"
+       x="180"
+       y="-1280"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="986.51562"
+       y="224.41408"
+       id="text1415-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan1413-2-1"
+         x="986.51562"
+         y="224.41408">Navigation Bars To Navigate Between The Main Sub Categories</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="718.0553"
+       y="224.41408"
+       id="text1415-1-9-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6-1-9-8"
+         x="718.0553"
+         y="224.41408">'Floor' Title</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.6;stroke:#ffffff;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1411-2-7-2"
+       width="80"
+       height="640"
+       x="758"
+       y="-1280"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="928.64062"
+       y="803.71875"
+       id="text1415-1-9-6-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan1413-6-1-9-8-2"
+         x="928.64062"
+         y="803.71875">'Rooms'</tspan></text>
+  </g>
+</svg>

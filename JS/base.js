@@ -90,7 +90,7 @@
                 navBars.style.display = 'inline-block';
                 navClose.style.display = 'none';
             }    
-        })
+        });
 
         /* Navigation */
         // Listen To Footer Button Click
@@ -102,4 +102,4 @@
             else if(socialMediaRevealed === true){
                 hideSocialMedia();
             }
-        })
+        });
