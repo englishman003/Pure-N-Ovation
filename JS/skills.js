@@ -20,6 +20,14 @@
 
         /* Planet Overlays */
         const mercuryOverlay = document.getElementsByClassName(`mercury-overlay`)[0];
+        const venusOverlay = document.getElementsByClassName(`venus-overlay`)[0];
+        const earthOverlay = document.getElementsByClassName(`earth-overlay`)[0];
+        const marsOverlay = document.getElementsByClassName(`mars-overlay`)[0];
+        const jupiterOverlay = document.getElementsByClassName(`jupiter-overlay`)[0];
+        const saturnOverlay = document.getElementsByClassName(`saturn-overlay`)[0];
+        const uranusOverlay = document.getElementsByClassName(`uranus-overlay`)[0];
+        const neptuneOverlay = document.getElementsByClassName(`neptune-overlay`)[0];
+        const plutoOverlay = document.getElementsByClassName(`pluto-overlay`)[0];
 
         /* Skills */
         const html = document.getElementsByClassName(`html`)[0];
@@ -32,9 +40,63 @@
         const illustrator = document.getElementsByClassName(`il`)[0];
         const photoshop = document.getElementsByClassName(`ps`)[0];
 
-        html.onmouseover = () => {
-            mercuryOverlay.style.display = `block`;
-        }
-        html.onmouseleave = () => {
-            mercuryOverlay.style.display = `none`;
-        }
+    //////////////////////////////////////////////
+    //  Functions
+
+        // Mouse Hover Functions
+
+            /* Planet Skills */
+            html.onmouseover = () => {
+                mercuryOverlay.style.display = `block`;
+            }
+            html.onmouseleave = () => {
+                mercuryOverlay.style.display = `none`;
+            }
+            css.onmouseover = () => {
+                venusOverlay.style.display = `block`;
+            }
+            css.onmouseleave = () => {
+                venusOverlay.style.display = `none`;
+            }
+            javascript.onmouseover = () => {
+                earthOverlay.style.display = `block`;
+            }
+            javascript.onmouseleave = () => {
+                earthOverlay.style.display = `none`;
+            }
+            scss.onmouseover = () => {
+                marsOverlay.style.display = `block`;
+            }
+            scss.onmouseleave = () => {
+                marsOverlay.style.display = `none`;
+            }
+            less.onmouseover = () => {
+                jupiterOverlay.style.display = `block`;
+            }
+            less.onmouseleave = () => {
+                jupiterOverlay.style.display = `none`;
+            }
+            responsiveDesign.onmouseover = () => {
+                saturnOverlay.style.display = `block`;
+            }
+            responsiveDesign.onmouseleave = () => {
+                saturnOverlay.style.display = `none`;
+            }
+            inkscape.onmouseover = () => {
+                uranusOverlay.style.display = `block`;
+            }
+            inkscape.onmouseleave = () => {
+                uranusOverlay.style.display = `none`;
+            }
+            illustrator.onmouseover = () => {
+                neptuneOverlay.style.display = `block`;
+            }
+            illustrator.onmouseleave = () => {
+                neptuneOverlay.style.display = `none`;
+            }
+            photoshop.onmouseover = () => {
+                plutoOverlay.style.display = `block`;
+            }
+            photoshop.onmouseleave = () => {
+                plutoOverlay.style.display = `none`;
+            }
