@@ -70,10 +70,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         const photoshop = document.getElementsByClassName(`ps`)[0];
 
         /* Popup Window */
+        const popup = document.getElementsByClassName(`popup`)[0];
         const popupHeader = document.getElementsByClassName(`popup-content-header`)[0];
         const popupImage = document.getElementsByClassName(`popup-content-image`)[0];
         const popupDescriptionTitle = document.getElementsByClassName(`popup-content-description-title`)[0];
         const popupDescriptionParagraph = document.getElementsByClassName(`popup-content-description-paragraph`)[0];
+        const popupClose = document.getElementsByClassName(`close-popup`)[0];
 
     //////////////////////////////////////////////
     //  Objects
@@ -103,43 +105,43 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
     html.onclick = () => {
         popupHeader.innerHTML = planetNames[0];
         popupImage.innerHTML = mercuryImage;
-        popupDescriptionTitle = skillTitles[0];
-        popupDescriptionParagraph = skillStatements[0];
+        popupDescriptionTitle.innerHTML = skillTitles[0];
+        popupDescriptionParagraph.innerHTML = skillStatements[0];
     }
 
     css.onclick = () => {
         popupHeader.innerHTML = planetNames[1];
         popupImage.innerHTML = venusImage;
-        popupDescriptionTitle = skillTitles[1];
-        popupDescriptionParagraph = skillStatements[1];
+        popupDescriptionTitle.innerHTML = skillTitles[1];
+        popupDescriptionParagraph.innerHTML = skillStatements[1];
     }
 
     javascript.onclick = () => {
         popupHeader.innerHTML = planetNames[2];
         popupImage.innerHTML = earthImage;
-        popupDescriptionTitle = skillTitles[2];
-        popupDescriptionParagraph = skillStatements[2];
+        popupDescriptionTitle.innerHTML = skillTitles[2];
+        popupDescriptionParagraph.innerHTML = skillStatements[2];
     }
 
     scss.onclick = () => {
         popupHeader.innerHTML = planetNames[3];
         popupImage.innerHTML = marsImage;
-        popupDescriptionTitle = skillTitles[3];
-        popupDescriptionParagraph = skillStatements[3];
+        popupDescriptionTitle.innerHTML = skillTitles[3];
+        popupDescriptionParagraph.innerHTML = skillStatements[3];
     }
 
     less.onclick = () => {
         popupHeader.innerHTML = planetNames[4];
         popupImage.innerHTML = jupiterImage;
-        popupDescriptionTitle = skillTitles[4];
-        popupDescriptionParagraph = skillStatements[4];
+        popupDescriptionTitle.innerHTML = skillTitles[4];
+        popupDescriptionParagraph.innerHTML = skillStatements[4];
     }
 
     responsiveDesign.onclick = () => {
         popupHeader.innerHTML = planetNames[5];
         popupImage.innerHTML = saturnImage;
-        popupDescriptionTitle = skillTitles[5];
-        popupDescriptionParagraph = skillStatements[5];
+        popupDescriptionTitle.innerHTML = skillTitles[5];
+        popupDescriptionParagraph.innerHTML = skillStatements[5];
         popupImage.style.height = `70%`;
         popupImage.style.width = `70%`;
         popupImage.style.margin = `1.5rem 1.5rem 0`;
@@ -150,22 +152,22 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
     inkscape.onclick = () => {
         popupHeader.innerHTML = planetNames[6];
         popupImage.innerHTML = uranusImage;
-        popupDescriptionTitle = skillTitles[6];
-        popupDescriptionParagraph = skillStatements[6];
+        popupDescriptionTitle.innerHTML = skillTitles[6];
+        popupDescriptionParagraph.innerHTML = skillStatements[6];
     }
 
     illustrator.onclick = () => {
         popupHeader.innerHTML = planetNames[7];
         popupImage.innerHTML = neptuneImage;
-        popupDescriptionTitle = skillTitles[7];
-        popupDescriptionParagraph = skillStatements[7];
+        popupDescriptionTitle.innerHTML = skillTitles[7];
+        popupDescriptionParagraph.innerHTML = skillStatements[7];
     }
 
     photoshop.onclick = () => {
         popupHeader.innerHTML = planetNames[8];
         popupImage.innerHTML = plutoImage;
-        popupDescriptionTitle = skillTitles[8];
-        popupDescriptionParagraph = skillStatements[8];
+        popupDescriptionTitle.innerHTML = skillTitles[8];
+        popupDescriptionParagraph.innerHTML = skillStatements[8];
     }
 
 
