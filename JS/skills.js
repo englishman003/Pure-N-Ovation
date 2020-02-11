@@ -79,35 +79,67 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
     //  Objects
 
     const planetNames = [`Mercury`, `Venus`, `Earth`, `Mars`, `Jupiter`, `Saturn`, `Uranus`, `Neptune`, `Pluto`];
+    const skillTitles = [`HTML5`, `CSS3`, `JavaScript`, `SCSS`, `Less`, `Responsive Design`, `Inkscape`, `Illustrator`, `Photoshop`];
+    const skillStatements = [
+        `HTML5 is a markup languange which, simply put, provides the structure of our websites.  Something I strive to do is to provide a stable and clean structure, free of any kind of unwanted clutter.`,
+
+        `CSS3 is literally the aesthetics, and simple functionality of the website.  Without it, it gets really bland.  Something I strive for is to be as clean and dry as possible with it, while not sacrificing on the beauty and creativity of the design.`,
+
+        `JavaScript brings the fun and interactivity into the website.  Without it, a user's experience becomes less vibrant. I'm always learning how to become more effective in my use of JavaScript and how to become more efficient as well.`,
+
+        `SCSS was the pre-processor that I learned before attending Lambda School through Udemy courses taken online from Jonas Schmettman.  Awesome instructor who taught me much about the 7 folder structure that is currently seen in my personal portfolio.`,
+
+        `Less has been learned from Lambda School.  It is also a great pre-processor and I only have a bias with SCSS because it was the first and I am still much more effective with it, including how to implement build scripts and such with it.`,
+
+        `Responsive Design is absolutely critical for any website.  Mobile device usage has already passed desktop web usage and likely will stay that way forever.  We need to be able to accomodate for any device, screen, or even browser.`,
+
+        `Inkscape has been something of a design hero for me.  I do love the intuitve design, as well as it being free.  It has a steeper learning curve, but I guarantee that the effort to learn it is absolutely worth it!`,
+
+        `Illustrator was the first vector program I had learned.  It is still an absolute mainstay in my knowledge bank and is also very easy to learn and use.`,
+
+        `Photoshop is always going to have a foothold on the digital manipulation community alond with the design community.  I had loved the ability to integrate things into the Brackets code editor, but now I use VSCode.  Either way, it is great to work with the layers and powerful capabilities of Photoshop.`
+    ];
 
     html.onclick = () => {
         popupHeader.innerHTML = planetNames[0];
         popupImage.innerHTML = mercuryImage;
+        popupDescriptionTitle = skillTitles[0];
+        popupDescriptionParagraph = skillStatements[0];
     }
 
     css.onclick = () => {
         popupHeader.innerHTML = planetNames[1];
         popupImage.innerHTML = venusImage;
+        popupDescriptionTitle = skillTitles[1];
+        popupDescriptionParagraph = skillStatements[1];
     }
 
     javascript.onclick = () => {
         popupHeader.innerHTML = planetNames[2];
         popupImage.innerHTML = earthImage;
+        popupDescriptionTitle = skillTitles[2];
+        popupDescriptionParagraph = skillStatements[2];
     }
 
     scss.onclick = () => {
         popupHeader.innerHTML = planetNames[3];
         popupImage.innerHTML = marsImage;
+        popupDescriptionTitle = skillTitles[3];
+        popupDescriptionParagraph = skillStatements[3];
     }
 
     less.onclick = () => {
         popupHeader.innerHTML = planetNames[4];
         popupImage.innerHTML = jupiterImage;
+        popupDescriptionTitle = skillTitles[4];
+        popupDescriptionParagraph = skillStatements[4];
     }
 
     responsiveDesign.onclick = () => {
         popupHeader.innerHTML = planetNames[5];
         popupImage.innerHTML = saturnImage;
+        popupDescriptionTitle = skillTitles[5];
+        popupDescriptionParagraph = skillStatements[5];
         popupImage.style.height = `70%`;
         popupImage.style.width = `70%`;
         popupImage.style.margin = `1.5rem 1.5rem 0`;
@@ -118,16 +150,22 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
     inkscape.onclick = () => {
         popupHeader.innerHTML = planetNames[6];
         popupImage.innerHTML = uranusImage;
+        popupDescriptionTitle = skillTitles[6];
+        popupDescriptionParagraph = skillStatements[6];
     }
 
     illustrator.onclick = () => {
         popupHeader.innerHTML = planetNames[7];
         popupImage.innerHTML = neptuneImage;
+        popupDescriptionTitle = skillTitles[7];
+        popupDescriptionParagraph = skillStatements[7];
     }
 
     photoshop.onclick = () => {
         popupHeader.innerHTML = planetNames[8];
         popupImage.innerHTML = plutoImage;
+        popupDescriptionTitle = skillTitles[8];
+        popupDescriptionParagraph = skillStatements[8];
     }
 
 
