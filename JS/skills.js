@@ -83,23 +83,23 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
     const planetNames = [`Mercury`, `Venus`, `Earth`, `Mars`, `Jupiter`, `Saturn`, `Uranus`, `Neptune`, `Pluto`];
     const skillTitles = [`HTML5`, `CSS3`, `JavaScript`, `SCSS`, `Less`, `Responsive Design`, `Inkscape`, `Illustrator`, `Photoshop`];
     const skillStatements = [
-        `HTML5 is a markup languange which, simply put, provides the structure of our websites.  Something I strive to do is to provide a stable and clean structure, free of any kind of unwanted clutter.`,
+        `HTML5 is a markup language and the skeleton of our websites. My goal is to make it strong, stable, easy to read & easy to use.`,
 
-        `CSS3 is literally the aesthetics, and simple functionality of the website.  Without it, it gets really bland.  Something I strive for is to be as clean and dry as possible with it, while not sacrificing on the beauty and creativity of the design.`,
+        `CSS3 is what makes our website body look stunning. Striving for clean, and well kept code that is not trying too hard is the ultimate goal.`,
 
-        `JavaScript brings the fun and interactivity into the website.  Without it, a user's experience becomes less vibrant. I'm always learning how to become more effective in my use of JavaScript and how to become more efficient as well.`,
+        `JavaScript makes the website fun and enjoyable. Cool effects are nice, but the experience must be the best of a lifetime.`,
 
-        `SCSS was the pre-processor that I learned before attending Lambda School through Udemy courses taken online from Jonas Schmettman.  Awesome instructor who taught me much about the 7 folder structure that is currently seen in my personal portfolio.`,
+        `SCSS helps keep things running efficiently as a preprocessor.  It helps the CSS3 be stronger and not have to work too hard, which also allows us to make more enjoyable websites.`,
 
-        `Less has been learned from Lambda School.  It is also a great pre-processor and I only have a bias with SCSS because it was the first and I am still much more effective with it, including how to implement build scripts and such with it.`,
+        `Although I predominantly use SCSS, Less is also a technology that is well known and capably used.  Whatever the project or team, I aim to be flexible.`,
 
-        `Responsive Design is absolutely critical for any website.  Mobile device usage has already passed desktop web usage and likely will stay that way forever.  We need to be able to accomodate for any device, screen, or even browser.`,
+        `One key to helping the JavaScript make each visit the best of a lifetime is to make a responsive and easy to access website.  I aim to make my websites available to as big of an audience as currently possible.  No matter the device, and hopefully the browser.`,
 
-        `Inkscape has been something of a design hero for me.  I do love the intuitve design, as well as it being free.  It has a steeper learning curve, but I guarantee that the effort to learn it is absolutely worth it!`,
+        `Inkscape has a steep learning curve, but it is equally powerful and intuitive.  I use it primarily for logos and mockups, but I love to use it for anything artistic.`,
 
-        `Illustrator was the first vector program I had learned.  It is still an absolute mainstay in my knowledge bank and is also very easy to learn and use.`,
+        `The first vector image software to be learned was Adobe's Illustrator.  It has less of learning curve than Inkscape, has similar abilities, and I try to keep the knowledge of the software as much as possible to be flexible with whomever the designers are.`,
 
-        `Photoshop is always going to have a foothold on the digital manipulation community alond with the design community.  I had loved the ability to integrate things into the Brackets code editor, but now I use VSCode.  Either way, it is great to work with the layers and powerful capabilities of Photoshop.`
+        `Photoshop is king of the photo manipulation industry, and for good reason.  I understand much of what it has to offer, but usually use vector images to keep things reasonable.  As I'm sure you can tell, staying flexible and well-rounded is essential to me.`
     ];
 
     html.onclick = () => {
@@ -233,14 +233,3 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
             photoshop.onmouseleave = () => {
                 plutoOverlay.style.display = `none`;
             }
-
-            // <div class="popup" id="popup">
-            //         <section class="popup-content">
-            //             <header class="popup-content-header">Mercury</header>
-            //             <div class="popup-content-image"></div>
-            //             <section class="popup-content-description">
-            //                 <header class="popup-content-description-title">HTML5</header>
-            //                 <p class="popup-content-description-paragraph">HTML5 is a markup languange which, simply put, provides the structure of our websites.  Sonething I strive to do is to provide a stable and clean structure, free of any kind of unwanted clutter.</p>
-            //             </section>
-            //         </section>
-            //     </div>
