@@ -5,7 +5,7 @@
     //  Variables
         /* Design */
             // Colors
-                const colors = ['#FFD700', '#0047AB', '#3E13AF', '#E1004C', '#70E500', '#00A47F', `#448B00`];
+                const colors = ['#FFE762', '#6EB5FF', '#6AFF62', '#FF6266', '#9C73FF', '#FFC062', `#66E7FF`];
                 const bAndW = ['#000000', '#111111', '#333333', '#555555', '#777777', '#999999', '#bbbbbb', '#dddddd', '#FAFAFA', '#FFFFFF'];
 
         /* States */
