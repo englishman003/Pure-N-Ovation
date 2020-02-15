@@ -84,7 +84,7 @@
 
     PURE.createCard(pureCard, pureHeader, pureDiv1, pureDiv2, pureCoverImage,  pureInfo, pureP, pureFooter, `portfolio-card`, `portfolio-card_header`, `portfolio-card_image`, `image`, `portfolio-card_info`, `portfolio-card_info-paragraph`, `portfolio-card_info-footer`);
     
-    PURE.createCard(hangCard, hangHeader, hangDiv1, hangDiv2, hangCoverImage,  hangInfo, hangP, hangFooter, `portfolio-card`, `portfolio-card_header`, `portfolio-card_image`, `image`, `portfolio-card_info`, `portfolio-card_info-paragraph`, `portfolio-card_info-footer`);
+    Hangman.createCard(hangCard, hangHeader, hangDiv1, hangDiv2, hangCoverImage,  hangInfo, hangP, hangFooter, `portfolio-card`, `portfolio-card_header`, `portfolio-card_image`, `image`, `portfolio-card_info`, `portfolio-card_info-paragraph`, `portfolio-card_info-footer`);
 
     /* Card Creation */;
         PURE.addProjectTitle(pureHeader, `PureNOvation`);
