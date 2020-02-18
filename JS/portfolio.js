@@ -434,6 +434,21 @@
                     bigPortfolioClose.style.display = `flex`;
                 }
 
+                function resetTranslation(){
+                    let samples = Array.from(sampleImages);
+                    // samples.shift();
+                    samples.forEach((item) => {
+                        item.style.transform = `translateX(16rem)`;
+                    });
+                    let replacement = document.createElement((`img`));
+                        replacement.src = samples[currentPicture].src;
+                        replacement.classList.add(`image`);
+                        replacement.classList.add(`screenshot`);
+                        replacement.classList.add(`column_1-4`);
+                        replacement.classList.add(`row_1-4`);
+                        bigProjectPicture.firstChild.nextSibling.replaceWith(replacement);
+                }
+
                 function calculateTranslation(number , multiplier){
                    return number - (number * multiplier);
                 }
@@ -597,7 +612,7 @@
                     }
                     projectTitle.textContent = `Hangman`;
                     sampleMediaContainer.firstChild.nextSibling.style.opacity = 1;
-                    portfolioProjectLinks[0].setAttribute(`href`, `https://hangman-eta.now.sh/`);
+                    portfolioProjectLinks[0].setAttribute(`href`, `https://hangman.ncluff003.now.sh/`);
                     portfolioProjectLinks[1].setAttribute(`href`, `https://github.com/englishman003/Hangman`);
                 }
 
@@ -629,6 +644,8 @@
 
                 traversePrevious.addEventListener(`click`, () => {
                     currentProject--;
+                    currentPicture = 0;
+                    resetTranslation();
                     if(currentProject < 0){
                         traversePPrevious.textContent = `No Previous Project`;
                         alert(`No Previous Projects Available!`);
@@ -644,6 +661,8 @@
 
                 traverseNext.addEventListener(`click`, () => {
                     currentProject++;
+                    currentPicture = 0;
+                    resetTranslation();
                     if(currentProject >= projectsArray.length){
                         alert(`No Next Projects Available!`);
                         currentProject = projectsArray.length - 1;
