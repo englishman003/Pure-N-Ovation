@@ -103,3 +103,8 @@
                 hideSocialMedia();
             }
         });
+
+    // window.addEventListener(`resize`, () => {
+    //     alert(`Window Height: ${window.innerHeight} - Window Width: ${window.innerWidth}`);
+    //     console.log(`Window Height: ${window.innerHeight} - Window Width: ${window.innerWidth}`);
+    // });
