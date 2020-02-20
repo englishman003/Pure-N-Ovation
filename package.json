@@ -18,11 +18,17 @@
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "concat": "^1.0.3",
+    "express": "^4.17.1",
     "node-sass": "^4.13.1",
     "node.js": "0.0.0",
+    "nodemailer": "^6.4.2",
+    "nodemailer-mailgun-transport": "^2.0.0",
     "php": "0.0.1",
     "postcss-cli": "^7.1.0",
-    "postcss-import": "^12.0.1"
+    "postcss-import": "^12.0.1",
+    "vee-validate": "^3.2.5",
+    "vue": "^2.6.11",
+    "xoauth2": "^1.2.0"
   },
   "dependencies": {
     "jquery": "^3.4.1",
