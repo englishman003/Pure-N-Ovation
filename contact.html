@@ -54,9 +54,9 @@
 
                         <form action="" id="app2" class="text-message-form" @submit.prevent = "submitForm">
 
-                            <input type="text" name="name" id="name" placeholder="Enter Full Name" v-model="form.name">
+                            <input type="text" name="name" id="name2" placeholder="Enter Full Name" v-model="form.name">
                             <span v-if="form.name.length === 0">Your Must Enter Your Name.</span>
-                            <label for="name" class="nameLabel">Full Name</label>
+                            <label for="name2" class="nameLabel">Full Name</label>
 
                             <input type="tel" name="name" id="phone" placeholder="Enter Phone Number" v-model="form.phone">
                             <span v-if="!form.phoneReg.test(form.phone)">Please Enter Your Phone Number</span>

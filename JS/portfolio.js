@@ -463,12 +463,22 @@
 
                 function translateImagesForward(){
                     upOrDown = 1;
+                    let changedTranslate = 10;
                     if(upOrDown === 1){
                         let samples = Array.from(sampleImages);
-                        calculateTranslation(currentPicture, 16);
-                        samples.forEach((item) => {
-                        item.style.transform = `translateX(${calculateTranslation(translationStart, currentPicture)}rem)`;
-                    });
+                        if(window.innerWidth === `350px`){
+                            calculateTranslation(currentPicture, changedTranslate);
+                            samples.forEach((item) => {
+                                item.style.transform = `translateX(${calculateTranslation(translationStart, currentPicture)}rem)`;
+                            });
+                        }
+                        else{
+                            calculateTranslation(currentPicture, 16);
+                            samples.forEach((item) => {
+                            item.style.transform = `translateX(${calculateTranslation(translationStart, currentPicture)}rem)`;
+                            });
+                        }
+                        
                     }
                 }
 
@@ -689,3 +699,6 @@
                         showNextImage(hmanArray);
                     }
                 });
+
+                /* ------------------- Portfolio Page Media Queries --------------------- */
+    
