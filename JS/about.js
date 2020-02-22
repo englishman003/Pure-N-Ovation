@@ -1,6 +1,96 @@
 //////////////////////////////////////////////
 /*            About Page              */
 
+/* -------------------- Media Query Grid Setup -------------------- */
+
+const about = document.getElementById(`about`);
+
+const layouts = 
+[`gridDesktop`,
+ `gridTabLand`,
+ `gridTabPort`, 
+ `gridMobileLand`,
+ `gridMobilePort`, 
+ `gridTV`
+];
+
+function getCorrectGrid(gridScreen, number){
+        gridScreen.classList.remove(`gridDesktop`);
+        gridScreen.classList.remove(`gridTabLand`);
+        gridScreen.classList.remove(`gridTabPort`);
+        gridScreen.classList.remove(`gridMobileLand`);
+        gridScreen.classList.remove(`gridMobilePort`);
+        gridScreen.classList.remove(`gridTV`);
+        gridScreen.classList.add(layouts[number]);
+}
+
+const a = window.matchMedia(`(min-width: 320px)`);
+const b = window.matchMedia(`(min-width: 375px)`);
+const c = window.matchMedia(`(min-width: 500px)`);
+const d = window.matchMedia(`(min-width: 750px)`);
+const e = window.matchMedia(`(min-width: 950px)`);
+const f = window.matchMedia(`(min-width: 1250px)`);
+const g = window.matchMedia(`(min-width: 1500px)`);
+const h = window.matchMedia(`(min-width: 1750px)`);
+const j = window.matchMedia(`(min-width: 2000px)`);
+
+//  About Page Media Queries
+
+if(a.matches){
+    getCorrectGrid(about, 4);
+}
+else{
+    console.log(`I'm not less than 320px`);
+}
+if(b.matches){
+    getCorrectGrid(about, 4);
+}
+else{
+    console.log(`I'm more than 375px`);
+}
+if(c.matches){
+    getCorrectGrid(about, 2);
+}
+else{
+    console.log(`I'm more than 500px`);
+}
+if(d.matches){
+    getCorrectGrid(about, 2);
+}
+else{
+    console.log(`I'm more than 750px`);
+}
+if(e.matches){
+    getCorrectGrid(about, 1);
+}
+else{
+    console.log(`I'm more than 950px`);
+}
+if(f.matches){
+    getCorrectGrid(about, 1);
+}
+else{
+    console.log(`I'm more than 1250px`);
+}
+if(g.matches){
+    getCorrectGrid(about, 0);
+}
+else{
+    console.log(`I'm more than 1500px`);
+}
+if(h.matches){
+    getCorrectGrid(about, 0);
+}
+else{
+    console.log(`I'm more than 1750px`);
+}
+if(j.matches){
+    getCorrectGrid(about, 0);
+}
+else{
+    console.log(`I'm more than 2000px`);
+}
+
     //////////////////////////////////////////
     //   Variables
 
