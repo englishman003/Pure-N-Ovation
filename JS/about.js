@@ -5,15 +5,6 @@
 
 const about = document.getElementById(`about`);
 
-const layouts = 
-[`gridDesktop`,
- `gridTabLand`,
- `gridTabPort`, 
- `gridMobileLand`,
- `gridMobilePort`, 
- `gridTV`
-];
-
 function getCorrectGrid(gridScreen, number){
         gridScreen.classList.remove(`gridDesktop`);
         gridScreen.classList.remove(`gridTabLand`);
@@ -23,16 +14,6 @@ function getCorrectGrid(gridScreen, number){
         gridScreen.classList.remove(`gridTV`);
         gridScreen.classList.add(layouts[number]);
 }
-
-const a = window.matchMedia(`(min-width: 320px)`);
-const b = window.matchMedia(`(min-width: 375px)`);
-const c = window.matchMedia(`(min-width: 500px)`);
-const d = window.matchMedia(`(min-width: 750px)`);
-const e = window.matchMedia(`(min-width: 950px)`);
-const f = window.matchMedia(`(min-width: 1250px)`);
-const g = window.matchMedia(`(min-width: 1500px)`);
-const h = window.matchMedia(`(min-width: 1750px)`);
-const j = window.matchMedia(`(min-width: 2000px)`);
 
 //  About Page Media Queries
 
