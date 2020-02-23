@@ -130,72 +130,80 @@
             gridScreen.classList.add(layouts[number]);
     }
 
-const a = window.matchMedia(`(min-width: 320px)`);
-const b = window.matchMedia(`(min-width: 375px)`);
-const c = window.matchMedia(`(min-width: 500px)`);
-const d = window.matchMedia(`(min-width: 750px)`);
-const e = window.matchMedia(`(min-width: 950px)`);
-const f = window.matchMedia(`(min-width: 1250px)`);
-const g = window.matchMedia(`(min-width: 1500px)`);
-const h = window.matchMedia(`(min-width: 1750px)`);
-const j = window.matchMedia(`(min-width: 2000px)`);
+const a = window.matchMedia(`(max-width: 320px)`);
+const b = window.matchMedia(`(max-width: 375px)`);
+const c = window.matchMedia(`(max-width: 500px)`); // Max Width For Mobile Portrait Grid
+const d = window.matchMedia(`(max-width: 750px)`);
+const e = window.matchMedia(`(max-width: 950px)`); // Max Width For Tablet Portrait Grid
+const f = window.matchMedia(`(max-width: 1250px)`); // Max Width For Tablet Landscape Grid
+const g = window.matchMedia(`(max-width: 1500px)`);
+const h = window.matchMedia(`(max-width: 1750px)`);
+const j = window.matchMedia(`(max-width: 2000px)`);
 
     /////////////////////////////////////////////////
 //  Determining Correct Grid
 
     // Home Screen Media Queries
     
-    if(a.matches){
-        getCorrectGrid(homeScreen, 4);
-    }
-    else{
-        console.log(`I'm not less than 320px`);
-    }
-    if(b.matches){
-        getCorrectGrid(homeScreen, 4);
-    }
-    else{
-        console.log(`I'm more than 375px`);
-    }
-    if(c.matches){
-        getCorrectGrid(homeScreen, 2);
-    }
-    else{
-        console.log(`I'm more than 500px`);
-    }
-    if(d.matches){
-        getCorrectGrid(homeScreen, 2);
-    }
-    else{
-        console.log(`I'm more than 750px`);
-    }
-    if(e.matches){
-        getCorrectGrid(homeScreen, 1);
-    }
-    else{
-        console.log(`I'm more than 950px`);
-    }
-    if(f.matches){
-        getCorrectGrid(homeScreen, 1);
-    }
-    else{
-        console.log(`I'm more than 1250px`);
-    }
-    if(g.matches){
+    if(j.matches){
         getCorrectGrid(homeScreen, 0);
     }
     else{
-        console.log(`I'm more than 1500px`);
+        console.log(`I'm more than 2000px`);
     }
+
     if(h.matches){
         getCorrectGrid(homeScreen, 0);
     }
     else{
         console.log(`I'm more than 1750px`);
     }
-    if(j.matches){
+
+    if(g.matches){
         getCorrectGrid(homeScreen, 0);
     }
     else{
-        console.log(`I'm more than 2000px`);
+        console.log(`I'm more than 1500px`);
+    }
+
+    if(f.matches){
+        getCorrectGrid(homeScreen, 1);
+    }
+    else{
+        console.log(`I'm more than 1250px`);
+    }
+
+    if(e.matches){
+        getCorrectGrid(homeScreen, 2);
+    }
+    else{
+        console.log(`I'm more than 950px`);
+    }
+
+    if(d.matches){
+        getCorrectGrid(homeScreen, 2);
+    }
+    else{
+        console.log(`I'm more than 750px`);
+    }
+
+    if(c.matches){
+        getCorrectGrid(homeScreen, 4);
+    }
+    else{
+        console.log(`I'm more than 500px`);
+    }
+
+    if(b.matches){
+        getCorrectGrid(homeScreen, 4);
+    }
+    else{
+        console.log(`I'm more than 375px`);
+    }
+
+    if(a.matches){
+        getCorrectGrid(homeScreen, 4);
+    }
+    else{
+        console.log(`I'm not less than 320px`);
     }
