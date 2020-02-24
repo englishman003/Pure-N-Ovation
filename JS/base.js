@@ -114,7 +114,7 @@
     function resize()
             {
                 var heights = window.innerHeight;
-                document.getElementById(`screen`).style.height = (heights + 50) + "px";
+                document.getElementById(`screen`).style.height = (heights - 50) + "px";
             }
     const layouts = 
     [`gridDesktop`,
@@ -214,8 +214,8 @@ const j = window.matchMedia(`(max-width: 2000px)`);
     
 
     if(homeScreen.classList.contains(`gridMobilePort`) || homeScreen.classList.contains(`gridMobileLand`) || homeScreen.classList.contains(`gridTabPort`) || homeScreen.classList.contains(`gridTabLand`)){
-        resize();
-    }
-    window.onresize = function() {
-        resize();
-    };
+                resize();
+            }
+            window.onresize = function() {
+                resize();
+            };
