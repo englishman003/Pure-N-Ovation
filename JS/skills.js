@@ -248,49 +248,13 @@ function getCorrectGrid(gridScreen, number){
         gridScreen.classList.add(layouts[number]);
 }
 
-//  About Page Media Queries
+//  Skills Page Media Queries
 
-if(a.matches){
-    getCorrectGrid(skills, 4);
-}
-else{
-    console.log(`I'm not less than 320px`);
-}
-if(b.matches){
-    getCorrectGrid(skills, 4);
-}
-else{
-    console.log(`I'm more than 375px`);
-}
-if(c.matches){
-    getCorrectGrid(skills, 2);
-}
-else{
-    console.log(`I'm more than 500px`);
-}
-if(d.matches){
-    getCorrectGrid(skills, 2);
-}
-else{
-    console.log(`I'm more than 750px`);
-}
-if(e.matches){
-    getCorrectGrid(skills, 1);
-}
-else{
-    console.log(`I'm more than 950px`);
-}
-if(f.matches){
-    getCorrectGrid(skills, 1);
-}
-else{
-    console.log(`I'm more than 1250px`);
-}
-if(g.matches){
+if(j.matches){
     getCorrectGrid(skills, 0);
 }
 else{
-    console.log(`I'm more than 1500px`);
+    console.log(`I'm more than 2000px`);
 }
 if(h.matches){
     getCorrectGrid(skills, 0);
@@ -298,11 +262,48 @@ if(h.matches){
 else{
     console.log(`I'm more than 1750px`);
 }
-if(j.matches){
+if(g.matches){
     getCorrectGrid(skills, 0);
 }
 else{
-    console.log(`I'm more than 2000px`);
+    console.log(`I'm more than 1500px`);
 }
+if(f.matches){
+    getCorrectGrid(skills, 1);
+}
+else{
+    console.log(`I'm more than 1250px`);
+}
+if(e.matches){
+    getCorrectGrid(skills, 1);
+}
+else{
+    console.log(`I'm more than 950px`);
+}
+if(d.matches){
+    getCorrectGrid(skills, 2);
+}
+else{
+    console.log(`I'm more than 750px`);
+}
+if(c.matches){
+    getCorrectGrid(skills, 2);
+}
+else{
+    console.log(`I'm more than 500px`);
+}
+if(b.matches){
+    getCorrectGrid(skills, 4);
+}
+else{
+    console.log(`I'm more than 375px`);
+}
+if(a.matches){
+    getCorrectGrid(skills, 4);
+}
+else{
+    console.log(`I'm not less than 320px`);
+}
+
             
            
