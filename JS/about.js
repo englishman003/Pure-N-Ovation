@@ -261,6 +261,11 @@
 
 const about = document.getElementById(`about`);
 
+function resize(){
+    let heights = window.innerHeight;
+    document.getElementsByTagName(`html`)[0].style.height = heights + "px";
+}
+
 function getCorrectGrid(gridScreen, number){
         gridScreen.classList.remove(`gridDesktop`);
         gridScreen.classList.remove(`gridTabLand`);

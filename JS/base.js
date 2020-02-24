@@ -111,12 +111,11 @@
 
     /* -------------------- Media Query Grid Setup -------------------- */
 
-    function resize()
-            {
-                var heights = window.innerHeight;
-                document.getElementsByTagName(`html`)[0].style.height = heights + "px";
-            }
-            
+    function resize(){
+        let heights = window.innerHeight;
+        document.getElementsByTagName(`html`)[0].style.height = heights + "px";
+    }
+
     const layouts = 
     [`gridDesktop`,
      `gridTabLand`,
