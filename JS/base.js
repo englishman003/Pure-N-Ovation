@@ -111,6 +111,11 @@
 
     /* -------------------- Media Query Grid Setup -------------------- */
 
+    function resize()
+            {
+                var heights = window.innerHeight;
+                document.getElementsByTagName(`html`)[0].style.height = heights + "px";
+            }
     const layouts = 
     [`gridDesktop`,
      `gridTabLand`,
@@ -206,3 +211,11 @@ const j = window.matchMedia(`(max-width: 2000px)`);
     else{
         console.log(`I'm not less than 320px`);
     }
+    
+
+    if(homeScreen.classList.contains(`gridMobilePort`) || homeScreen.classList.contains(`gridMobileLand`) || homeScreen.classList.contains(`gridTabPort`) || homeScreen.classList.contains(`gridTabLand`)){
+                resize();
+            }
+            window.onresize = function() {
+                resize();
+            };
