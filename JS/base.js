@@ -128,6 +128,11 @@
             gridScreen.classList.remove(`gridMobilePort`);
             gridScreen.classList.remove(`gridTV`);
             gridScreen.classList.add(layouts[number]);
+
+            if(gridScreen.classList.includes(`gridMobilePort`) || gridScreen.classList.includes(`gridTabPort`)){
+                homeScreen.style.height = window.innerHeight;
+            }
+
     }
 
 const a = window.matchMedia(`(max-width: 320px)`);
