@@ -111,6 +111,10 @@
 
     /* -------------------- Media Query Grid Setup -------------------- */
 
+        // Variables For Mobile & Tablet Browsers
+            const height = window.innerHeight;
+            const width = window.innerWidth;
+
     const layouts = 
     [`gridDesktop`,
      `gridTabLand`,
@@ -129,8 +133,9 @@
             gridScreen.classList.remove(`gridTV`);
             gridScreen.classList.add(layouts[number]);
 
-            if(gridScreen.classList.includes(`gridMobilePort`) || gridScreen.classList.includes(`gridTabPort`)){
-                homeScreen.style.height = window.innerHeight;
+            if(gridScreen.classList.contains(`gridMobilePort`) || gridScreen.classList.contains(`gridTabPort`)){
+                window.onresize = function(height){
+                    gridScreen.style.height = height;
             }
 
     }
