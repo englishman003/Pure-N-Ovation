@@ -134,12 +134,8 @@
             gridScreen.classList.add(layouts[number]);
 
             if(gridScreen.classList.contains(`gridMobilePort`) || gridScreen.classList.contains(`gridTabPort`)){
-                window.onresize = function(height){
-                    gridScreen.style.height = height;
-                    alert(gridScreen.style.height);
+                
             }
-
-    }
 }
 const a = window.matchMedia(`(max-width: 320px)`);
 const b = window.matchMedia(`(max-width: 375px)`);
