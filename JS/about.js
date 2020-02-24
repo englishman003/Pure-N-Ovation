@@ -263,7 +263,7 @@ const about = document.getElementById(`about`);
 
 function resize(){
     let heights = window.innerHeight;
-    document.getElementsByTagName(`html`)[0].style.height = (heights + 50) + "px";
+    document.getElementsByTagName(`html`)[0].style.height = (heights + 56) + "px";
 }
 
 function getCorrectGrid(gridScreen, number){
