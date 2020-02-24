@@ -261,11 +261,6 @@
 
 const about = document.getElementById(`about`);
 
-function resize(){
-    let heights = window.innerHeight;
-    document.getElementsByTagName(`html`)[0].style.height = (heights + 56) + "px";
-}
-
 function getCorrectGrid(gridScreen, number){
         gridScreen.classList.remove(`gridDesktop`);
         gridScreen.classList.remove(`gridTabLand`);
@@ -340,12 +335,5 @@ if(a.matches){
 else{
     console.log(`I'm not less than 320px`);
 }
-
-if(about.classList.contains(`gridMobilePort`) || about.classList.contains(`gridMobileLand`) || about.classList.contains(`gridTabPort`) || about.classList.contains(`gridTabLand`)){
-    resize();
-}
-window.onresize = function() {
-    resize();
-};
             
             
