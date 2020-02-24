@@ -114,7 +114,7 @@
     function resize()
             {
                 var heights = window.innerHeight;
-                document.getElementsByTagName(`body`)[0].style.height = heights + "px";
+                document.getElementsByTagName(`body`)[0].style.height = (heights - 50) + "px";
             }
     const layouts = 
     [`gridDesktop`,
