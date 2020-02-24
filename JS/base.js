@@ -111,11 +111,11 @@
 
     /* -------------------- Media Query Grid Setup -------------------- */
 
-        // Variables For Mobile & Tablet Browsers
-            const mobileDiv = document.getElementsByClassName(`mobile`)[0];
-            const height = window.innerHeight;
-            const width = window.innerWidth;
-
+    function resize()
+            {
+                var heights = window.innerHeight;
+                document.getElementById(`screen`).style.height = heights + "px";
+            }
     const layouts = 
     [`gridDesktop`,
      `gridTabLand`,
@@ -133,10 +133,6 @@
             gridScreen.classList.remove(`gridMobilePort`);
             gridScreen.classList.remove(`gridTV`);
             gridScreen.classList.add(layouts[number]);
-
-            if(gridScreen.classList.contains(`gridMobilePort`) || gridScreen.classList.contains(`gridTabPort`)){
-                mobileDiv.style.minHeight = window.innerHeight;
-            }
 }
 const a = window.matchMedia(`(max-width: 320px)`);
 const b = window.matchMedia(`(max-width: 375px)`);
@@ -215,3 +211,11 @@ const j = window.matchMedia(`(max-width: 2000px)`);
     else{
         console.log(`I'm not less than 320px`);
     }
+    
+
+    if(homeScreen.classList.contains(`gridMobilePort`) || homeScreen.classList.contains(`gridMobileLand`) || homeScreen.classList.contains(`gridTabPort`) || homeScreen.classList.contains(`gridTabLand`)){
+        resize();
+    }
+    window.onresize = function() {
+        resize();
+    };
