@@ -112,6 +112,7 @@
     /* -------------------- Media Query Grid Setup -------------------- */
 
         // Variables For Mobile & Tablet Browsers
+            const mobileDiv = document.getElementsByClassName(`mobile`)[0];
             const height = window.innerHeight;
             const width = window.innerWidth;
 
@@ -134,7 +135,7 @@
             gridScreen.classList.add(layouts[number]);
 
             if(gridScreen.classList.contains(`gridMobilePort`) || gridScreen.classList.contains(`gridTabPort`)){
-                
+                mobileDiv.style.minHeight = window.innerHeight;
             }
 }
 const a = window.matchMedia(`(max-width: 320px)`);
