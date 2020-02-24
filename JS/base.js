@@ -136,6 +136,7 @@
             if(gridScreen.classList.contains(`gridMobilePort`) || gridScreen.classList.contains(`gridTabPort`)){
                 window.onresize = function(height){
                     gridScreen.style.height = height;
+                    alert(gridScreen.style.height);
             }
 
     }
