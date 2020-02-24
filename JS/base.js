@@ -139,7 +139,7 @@
             }
 
     }
-
+}
 const a = window.matchMedia(`(max-width: 320px)`);
 const b = window.matchMedia(`(max-width: 375px)`);
 const c = window.matchMedia(`(max-width: 500px)`); // Max Width For Mobile Portrait Grid
