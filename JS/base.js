@@ -150,7 +150,7 @@ const y = window.matchMedia(`(max-height: 375px) and (orientation: landscape)`);
 const x = window.matchMedia(`(max-height: 320px) and (orientation: landscape)`);
 
 // Tablet Landscapes
-const v = window.matchMedia(`(max-height: 800px) and (orientation: landscape)`);
+const v = window.matchMedia(`(max-height: 900px) and (orientation: landscape)`);
 const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
 
     /////////////////////////////////////////////////
