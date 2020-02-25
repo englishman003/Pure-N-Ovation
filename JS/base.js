@@ -244,7 +244,6 @@ const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
     }
     window.onresize = () => { resize(); };
     window.onorientationchange = () => {
-        alert(`Hello!`);
         window.location.reload(); 
         resize();
      }
