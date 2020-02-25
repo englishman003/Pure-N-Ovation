@@ -240,8 +240,7 @@ const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
     
 
     if(homeScreen.classList.contains(`gridMobilePort`) || homeScreen.classList.contains(`gridMobileLand`) || homeScreen.classList.contains(`gridTabPort`) || homeScreen.classList.contains(`gridTabLand`)){
-                resize();
-            }
-            window.onresize = function() {
-                resize();
-            };
+        resize();
+    }
+    window.onresize = () => { resize(); };
+    window.onorientationchange = () => { resize(); }
