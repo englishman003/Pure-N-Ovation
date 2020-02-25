@@ -335,5 +335,22 @@ if(a.matches){
 else{
     console.log(`I'm not less than 320px`);
 }
+
+if(v.matches){
+    getCorrectGrid(about, 1);
+}
+if(u.matches){
+    getCorrectGrid(about, 1);
+}
+
+if(z.matches){
+    getCorrectGrid(about, 3);
+}
+if(y.matches){
+    getCorrectGrid(about, 3);
+}
+if(x.matches){
+    getCorrectGrid(about, 3);
+}
             
             
