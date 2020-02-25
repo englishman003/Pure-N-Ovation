@@ -275,7 +275,7 @@ else{
     console.log(`I'm more than 1250px`);
 }
 if(e.matches){
-    getCorrectGrid(skills, 1);
+    getCorrectGrid(skills, 2);
 }
 else{
     console.log(`I'm more than 950px`);
