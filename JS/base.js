@@ -144,8 +144,17 @@ const g = window.matchMedia(`(max-width: 1500px)`);
 const h = window.matchMedia(`(max-width: 1750px)`);
 const j = window.matchMedia(`(max-width: 2000px)`);
 
+// Mobile Landscapes
+const z = window.matchMedia(`(max-height: 500px) and (orientation: landscape)`);
+const y = window.matchMedia(`(max-height: 375px) and (orientation: landscape)`);
+const x = window.matchMedia(`(max-height: 320px) and (orientation: landscape)`);
+
+// Tablet Landscapes
+const v = window.matchMedia(`(max-height: 800px) and (orientation: landscape)`);
+const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
+
     /////////////////////////////////////////////////
-//  Determining Correct Grid
+    //  Determining Correct Grid
 
     // Home Screen Media Queries
     
@@ -210,6 +219,23 @@ const j = window.matchMedia(`(max-width: 2000px)`);
     }
     else{
         console.log(`I'm not less than 320px`);
+    }
+
+    if(v.matches){
+        getCorrectGrid(homeScreen, 1);
+    }
+    if(u.matches){
+        getCorrectGrid(homeScreen, 1);
+    }
+
+    if(z.matches){
+        getCorrectGrid(homeScreen, 3);
+    }
+    if(y.matches){
+        getCorrectGrid(homeScreen, 3);
+    }
+    if(x.matches){
+        getCorrectGrid(homeScreen, 3);
     }
     
 

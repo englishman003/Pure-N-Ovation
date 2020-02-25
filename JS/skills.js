@@ -293,53 +293,78 @@ if(j.matches){
 else{
     console.log(`I'm more than 2000px`);
 }
+
 if(h.matches){
     getCorrectGrid(skills, 0);
 }
 else{
     console.log(`I'm more than 1750px`);
 }
+
 if(g.matches){
     getCorrectGrid(skills, 0);
 }
 else{
     console.log(`I'm more than 1500px`);
 }
+
 if(f.matches){
     getCorrectGrid(skills, 1);
 }
 else{
     console.log(`I'm more than 1250px`);
 }
+
 if(e.matches){
     getCorrectGrid(skills, 2);
 }
 else{
     console.log(`I'm more than 950px`);
 }
+
 if(d.matches){
     getCorrectGrid(skills, 2);
 }
 else{
     console.log(`I'm more than 750px`);
 }
+
 if(c.matches){
-    getCorrectGrid(skills, 2);
+    getCorrectGrid(skills, 4);
 }
 else{
     console.log(`I'm more than 500px`);
 }
+
 if(b.matches){
     getCorrectGrid(skills, 4);
 }
 else{
     console.log(`I'm more than 375px`);
 }
+
 if(a.matches){
     getCorrectGrid(skills, 4);
 }
 else{
     console.log(`I'm not less than 320px`);
+}
+
+if(v.matches){
+    getCorrectGrid(skills, 1);
+}
+if(u.matches){
+    getCorrectGrid(skills, 1);
+}
+
+if(z.matches){
+    getCorrectGrid(skills, 3);
+}
+if(y.matches){
+    getCorrectGrid(skills, 3);
+}
+if(x.matches){
+    getCorrectGrid(skills, 3);
 }
 
             
