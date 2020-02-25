@@ -1,6 +1,8 @@
 //////////////////////////////////////////////
 /*              Skills Page             */
 
+        const skills = document.getElementById(`skills`);
+
     //////////////////////////////////////////////
     //  Variables
 
@@ -107,6 +109,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = mercuryImage;
         popupDescriptionTitle.innerHTML = skillTitles[0];
         popupDescriptionParagraph.innerHTML = skillStatements[0];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     css.onclick = () => {
@@ -114,6 +119,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = venusImage;
         popupDescriptionTitle.innerHTML = skillTitles[1];
         popupDescriptionParagraph.innerHTML = skillStatements[1];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     javascript.onclick = () => {
@@ -121,6 +129,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = earthImage;
         popupDescriptionTitle.innerHTML = skillTitles[2];
         popupDescriptionParagraph.innerHTML = skillStatements[2];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     scss.onclick = () => {
@@ -128,6 +139,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = marsImage;
         popupDescriptionTitle.innerHTML = skillTitles[3];
         popupDescriptionParagraph.innerHTML = skillStatements[3];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     less.onclick = () => {
@@ -135,6 +149,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = jupiterImage;
         popupDescriptionTitle.innerHTML = skillTitles[4];
         popupDescriptionParagraph.innerHTML = skillStatements[4];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     responsiveDesign.onclick = () => {
@@ -147,6 +164,19 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.style.margin = `1.5rem 1.5rem 0`;
         popupDescriptionTitle.style.transform = `translateY(-6rem)`;
         popupDescriptionParagraph.style.transform = `translateY(-3.5rem)`;
+
+        if(skills.classList.contains(`gridTabPort`)){
+            popupImage.style.height = `13rem`;
+            popupImage.style.width = `13rem`;
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+            popupDescriptionParagraph.style.transform = `translateY(-1.5rem)`;
+        }
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupImage.style.height = `13rem`;
+            popupImage.style.width = `13rem`;
+            popupDescriptionTitle.style.transform = `translateY(-4rem)`;
+            popupDescriptionParagraph.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     inkscape.onclick = () => {
@@ -154,6 +184,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = uranusImage;
         popupDescriptionTitle.innerHTML = skillTitles[6];
         popupDescriptionParagraph.innerHTML = skillStatements[6];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     illustrator.onclick = () => {
@@ -161,6 +194,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = neptuneImage;
         popupDescriptionTitle.innerHTML = skillTitles[7];
         popupDescriptionParagraph.innerHTML = skillStatements[7];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     photoshop.onclick = () => {
@@ -168,6 +204,9 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupImage.innerHTML = plutoImage;
         popupDescriptionTitle.innerHTML = skillTitles[8];
         popupDescriptionParagraph.innerHTML = skillStatements[8];
+        if(skills.classList.contains(`gridMobilePort`)){
+            popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
 
@@ -235,8 +274,6 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
             }
 
             /* -------------------- Media Query Grid Setup -------------------- */
-
-const skills = document.getElementById(`skills`);
 
 function getCorrectGrid(gridScreen, number){
         gridScreen.classList.remove(`gridDesktop`);
