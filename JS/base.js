@@ -119,6 +119,7 @@
     function resize2(){
         let heights = window.innerHeight;
         document.getElementsByTagName(`html`)[0].style.height = (heights - 20) + "px";
+        document.getElementsByTagName(`html`)[0].style.position = `fixed`;
     }
 
     const layouts = 
