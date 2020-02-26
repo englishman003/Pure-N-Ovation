@@ -116,6 +116,11 @@
         document.getElementsByTagName(`html`)[0].style.height = heights + "px";
     }
 
+    function resize2(){
+        let heights = window.innerHeight;
+        document.getElementsByTagName(`html`)[0].style.height = (heights - 20) + "px";
+    }
+
     const layouts = 
     [`gridDesktop`,
      `gridTabLand`,
@@ -245,5 +250,10 @@ const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
     window.onresize = () => { resize(); };
     window.onorientationchange = () => {
         window.location.reload(); 
-        resize();
+        if(window.orientation === `landscape`){
+            resize2();
+        }
+        else{
+            resize();
+        }
      }
