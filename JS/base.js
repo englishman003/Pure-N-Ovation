@@ -258,3 +258,7 @@ const u = window.matchMedia(`(max-height: 700px) and (orientation: landscape)`);
             resize();
         }
      }
+
+     if(window.orientation === `landscape`){
+        window.onscroll = resize2();
+     }
