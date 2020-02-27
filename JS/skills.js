@@ -112,6 +112,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
         }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
+        }
     }
 
     css.onclick = () => {
@@ -121,6 +127,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupDescriptionParagraph.innerHTML = skillStatements[1];
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
         }
     }
 
@@ -132,6 +144,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
         }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
+        }
     }
 
     scss.onclick = () => {
@@ -142,6 +160,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
         }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
+        }
     }
 
     less.onclick = () => {
@@ -151,6 +175,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupDescriptionParagraph.innerHTML = skillStatements[4];
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
         }
     }
 
@@ -177,6 +207,23 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
             popupDescriptionTitle.style.transform = `translateY(-4rem)`;
             popupDescriptionParagraph.style.transform = `translateY(-1.5rem)`;
         }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupImage.style.height = `16rem`;
+            popupImage.style.width = `16rem`;
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+            popupDescriptionParagraph.style.transform = `translateY(-1.5rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupImage.style.height = `11em`;
+            popupImage.style.width = `11rem`;
+            if(popupImage.innerHTML === saturnImage){
+                popupDescriptionTitle.style.transform = `translateY(-3rem)`;
+            }
+            else{
+                popupDescriptionTitle.style.transform = `translateY(-1rem)`;
+            }
+            popupDescriptionParagraph.style.transform = `translateY(-1.5rem)`;
+        }
     }
 
     inkscape.onclick = () => {
@@ -187,6 +234,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
         }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
+        }
     }
 
     illustrator.onclick = () => {
@@ -196,6 +249,12 @@ const plutoImage = `<img src="/Design_Files/Images/real-pluto.png" alt="Planet P
         popupDescriptionParagraph.innerHTML = skillStatements[7];
         if(skills.classList.contains(`gridMobilePort`)){
             popupDescriptionTitle.style.transform = `translateY(-1.5rem)`;
+        }
+        if(skills.classList.contains(`gridTabLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-2rem)`;
+        }
+        if(skills.classList.contains(`gridMobileLand`)){
+            popupDescriptionTitle.style.transform = `translateY(-1rem)`;
         }
     }
 
