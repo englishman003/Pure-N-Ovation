@@ -108,7 +108,7 @@ sendMessage.addEventListener('click', () => {
   alert(`An Email Was Sent!`);
 });
 
-app.post('/', express.urlencoded, (req, res) => {
+app.post('/submitContactForm', express.urlencoded, (req, res) => {
   console.log(req.body);
   alert(req.body);
   return res.send(req.body);
