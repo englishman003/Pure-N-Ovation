@@ -13,12 +13,6 @@ app.use(
   })
 );
 
-app.post('/submitContactForm', express.urlencoded, (req, res) => {
-  console.log(req.body);
-  alert(req.body);
-  return res.send(req.body);
-});
-
 // const htmlToText = require(`htmlToText`);
 
 // new Email(firstName, lastName, emailAddress, subject, message).sendEmail();
@@ -112,4 +106,10 @@ sendMessage.addEventListener('click', () => {
   yourEmail.sendEmail();
   console.log(`My Goodness An Email!`);
   alert(`An Email Was Sent!`);
+});
+
+app.post('/', express.urlencoded, (req, res) => {
+  console.log(req.body);
+  alert(req.body);
+  return res.send(req.body);
 });
