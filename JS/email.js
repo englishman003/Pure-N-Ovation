@@ -13,7 +13,7 @@ app.use(
   })
 );
 
-app.post('/submitContactForm', express.urlencoded, (req, res) => {
+app.post('/contact.html', express.urlencoded, (req, res) => {
   console.log(req.body);
   alert(req.body);
   return res.send(req.body);
