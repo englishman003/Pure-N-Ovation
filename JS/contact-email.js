@@ -1,17 +1,29 @@
 // Learn Vue.js - Full Course for Beginners - 2019 <-- Video on YouTube to focus on later tonight.
 
+
+
 const App = new Vue({
-    el: `#app`,
+    el: `#App`,
     data: {
 
-        errors: [],
+        title: `Get In Touch`,
 
         form: {
-            
-            name: '',
+
+            fNamePlaceholder: `Enter Your First Name`,
+            lNamePlaceholder: `Enter Your Last Name`,
+            emailPlaceholder: `Enter Your Email`,
+            subjectPlaceholder: `Enter Your Subject`,
+            messagePlaceholder: `Enter Your Message`,
+
+            firstName: '',
+            lastName: '',
             email: '',
+            subject: '',
             message: '',
+
             emailReg: /[^@]+@[^@]/,
+            messageMax: 5000,
 
 
         }
@@ -20,14 +32,15 @@ const App = new Vue({
 
     methods: {
 
-        submitForm(){
+        submitForm() {
             console.log(this);
-            if(this.form.name.length === 0 || !this.form.emailReg.test(this.form.email) || this.form.message.length === 0){
+            if (this.form.firstName.length < 3 || this.form.lastName.length === 0 || !this.form.emailReg.test(this.form.email) || this.form.subject.length < 3 || this.form.message.length < 25) {
                 alert(`You need to fill out all of the information correctly!`);
                 return false;
-            }
-            else{
-                return true;
+            } else {
+                let emailForm = document.getElementById('emailForm');
+                emailForm.submit();
+                return console.log('Email has been sent.');
             }
         }
 
@@ -35,7 +48,7 @@ const App = new Vue({
 
     computed: {
 
-        validateEmail(){
+        validateEmail() {
 
             const emailPattern = /[^@]+@[^@]/;
             return emailPattern.test(this.form.email);
