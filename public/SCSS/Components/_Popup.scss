@@ -1,0 +1,127 @@
+.popup{
+    position: fixed;
+    height: 10%;
+    width: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: height .25s, width .25s, opacity .5s, visibility .5s;
+    border: .2rem solid $colorOffWhite;
+    border-radius: 5rem;
+
+    background-color: rgba($colorDarkestGrey, .75);
+    z-index: 8;
+    opacity: 0;
+    visibility: hidden;
+    &:target{
+        opacity: 1;
+        visibility: visible;
+        height: 90%;
+        width: 50%;
+        @media(max-width: 1750px){
+            height: 80%;
+            width: 60%;
+        }
+        @media(max-width: 1500px){
+            height: 75%;
+            width: 70%;
+        }
+        @media(max-width: 1250px){
+            height: 65%;
+            width: 60%;
+        }
+        @media(max-width: 950px){
+            height: 55%;
+            width: 62.5%;
+        }
+        @media(max-width: 750px){
+            height: 55%;
+            width: 65%;
+        }
+        @media(max-width: 500px){
+            height: 55%;
+            width: 85%;
+        }
+        @media(max-width: 375px){
+            height: 55%;
+            width: 92.5%;
+        }
+        @media(max-width: 320px){
+            height: 75%;
+            width: 97.5%;
+        }
+
+            // Landscape Styles
+    @media(max-height: 900px) and (orientation: landscape){
+        height: 90%;
+        width: 60%;  
+    }
+    @media(max-height: 500px) and (orientation: landscape){
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        background-color: rgba($colorDarkestGrey, 95);  
+    }
+    }
+
+    &-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        color: white;
+        &-header{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-image{
+            height: 20rem;
+            width: 20rem;
+            margin: 1.5rem;
+            border-radius: 50%;
+            @media(max-width: 750px){
+                height: 13rem;
+                width: 13rem;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        &-description{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0 2rem 2rem;
+            border-bottom-left-radius: 5rem;
+            border-bottom-right-radius: 5rem;
+            &-title{
+                height: 30%;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media(max-width: 375px){
+                    transform: translateY(-.5rem);
+                }
+            }
+            &-paragraph{
+                height: 40%;
+                width: 75%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

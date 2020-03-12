@@ -1,0 +1,395 @@
+// Media Query Helps
+    /*
+
+        320px - Mobile Portrait
+        375px - Mobile Portrait
+        500px - Mobile Portrait
+        750px - Tablet Portrait
+        950px - Tablet Portrait
+        1250px - Tablet Landscape
+        1500px - Desktop
+        1750px - Desktop
+        2000px - Desktop
+        
+    */
+
+.page-counter {
+    position: relative;
+    @media(max-width: 1500px){
+        grid-column: 8 / span 10;
+        grid-row: 14 / span 1;
+    }
+    @media(max-width: 1250px){
+        grid-column: 6 / span 8;
+        grid-row: 10 / span 1;
+    }
+    @media(max-width: 950px){
+        grid-column: 4 / span 6;
+        grid-row: 14 / span 1;
+        transform: translateY(-1.5rem);
+    }
+    @media(max-width: 750px){
+        grid-column: 3 / span 8;
+        grid-row: 13 / span 1;
+    }
+    @media(max-width: 500px){
+        grid-column: 2 / span 8;
+        grid-row: 10 / span 1;
+    }
+    @media(max-width: 375px){
+        grid-column: 2 / span 8;
+        grid-row: 9 / span 1;
+    }
+    @media(max-width: 320px){
+        grid-column: 2 / span 8;
+        grid-row: 9 / span 1;
+    }
+
+    // Landscape Styles
+
+    @media (max-height: 900px) and (orientation: landscape){
+        grid-column: 6 / span 8;
+        grid-row: 9/ span 1;
+        align-self: center;
+        transform: translateY(2rem);
+    }
+
+    @media (max-height: 700px) and (orientation: landscape){
+        grid-column: 6 / span 8;
+        grid-row: 9/ span 1;
+        align-self: center;
+        transform: translateY(2rem);
+    }
+    @media (max-height: 500px) and (orientation: landscape){
+        grid-column: 3 / span 8;
+        grid-row: 8 / span 1;
+        align-self: center;
+        transform: translateY(-2rem);
+    }
+    @media (max-height: 375px) and (orientation: landscape){
+        grid-column: 3 / span 8;
+        grid-row: 8 / span 1;
+        align-self: flex-start;
+        transform: translateY(.5rem);
+    }
+    @media (max-height: 320px) and (orientation: landscape){
+        grid-column: 3 / span 8;
+        grid-row: 8 / span 1;
+        transform: translateY(.25rem);
+    }
+    
+    .page-icon-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .page{
+            position: relative;
+            transition: color 1s;
+        }
+    }
+}
+
+.logo-link{
+    @media(max-width: 1250px){
+        grid-column: 1 / span 1;
+        grid-row: 12 / span 1;
+        align-self: end;
+    }
+    @media(max-width: 950px){
+        grid-column: 1 / span 1;
+        grid-row: 18 / span 1;
+        align-self: end;
+    }
+    @media(max-width: 750px){
+        grid-column: 1 / span 2;
+        grid-row: 18 / span 1;
+        align-self: end;
+    }
+    @media(max-width: 500px){
+        grid-column: 1 / span 2;
+        grid-row: 12 / span 1;
+    }
+    @media(max-width: 375px){
+        grid-column: 1 / span 2;
+        grid-row: 12 / span 1;
+    }
+    @media(max-width: 320px){
+        grid-column: 1 / span 2;
+        grid-row: 12 / span 1;
+    }
+
+    // Landscape Styles
+
+    @media (max-height: 900px) and (orientation: landscape){
+        position: fixed;
+    }
+
+    @media (max-height: 700px) and (orientation: landscape){
+        height: 8rem;
+        width: 8rem;
+        border-top-left-radius: 3rem;
+        grid-column: 1 / span 2;
+        grid-row: 12 / span 1;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape){
+        height: 5rem;
+        width: 5rem;
+        position: fixed;
+        border-top-right-radius: 2rem;
+        grid-column: 1 / span 2;
+        grid-row: 10 / span 1;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape){
+        height: 5rem;
+        width: 5rem;
+        border-top-right-radius: 2rem;
+        grid-column: 1 / span 2;
+        grid-row: 10 / span 1;
+    }
+
+    & .logo-container{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        width: 10rem;
+        border-top-right-radius: 5rem;
+        border-top: .3rem groove rgba($colorOffWhite, .75);
+        border-right: .3rem groove rgba($colorOffWhite, .75);
+        transition: background-color .5s;
+        z-index: 3;
+        @media(max-width: 750px){
+            height: 8rem;
+            width: 8rem;
+        }
+        @media(max-width: 500px){
+            height: 6rem;
+            width: 6rem;
+            border-top-right-radius: 3rem;
+        }
+        @media(max-width: 375px){
+            height: 5rem;
+            width: 5rem;
+        }
+        @media(max-width: 320px){
+            border-top-right-radius: 2rem;
+        }
+
+        // Landscape Styles
+
+        @media (max-height: 900px) and (orientation: landscape){
+            height: 8rem;
+            width: 8rem;
+            border-top-right-radius: 3rem;
+        }
+        
+        @media (max-height: 700px) and (orientation: landscape){
+            height: 8rem;
+            width: 8rem;
+            border-top-right-radius: 3rem;
+        }
+
+        @media (max-height: 500px) and (orientation: landscape){
+            height: 6rem;
+            width: 6rem;
+            border-top-right-radius: 3rem;
+        }
+
+        @media (max-height: 375px) and (orientation: landscape){
+            height: 5rem;
+            width: 5rem;
+            border-top-right-radius: 2rem;
+        }
+
+        &:hover{
+            cursor: pointer;
+            background-color: rgba($colorOffWhite, .75);
+        }
+        .my-logo{
+            position: relative;
+            height: 50%;
+            width: 50%;
+        }
+    }
+
+}
+
+.heading-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 1500px){
+        grid-column: 2 / span 22;
+        grid-row: 4 / span 10;
+    }
+    @media(max-width: 1250px){
+        grid-column: 2 / span 16;
+        grid-row: 4 / span 5;
+    }
+    @media(max-width: 1080px){
+        grid-column: 1 / -1;
+        grid-row: 4 / span 5;
+        padding: 2rem;
+
+    }
+    @media(max-width: 950px){
+        grid-column: 1 / -1;
+        grid-row: 5 / span 8;
+        padding: 2rem;
+    }
+    @media(max-width: 750px){
+        grid-column: 1 / -1;
+        grid-row: 6 / span 6;
+        padding: 2rem;
+    }
+    @media(max-width: 500px){
+        grid-column: 1 / -1;
+        grid-row: 4 / span 5;
+        padding: 2rem;
+    }
+    @media(max-width: 375px){
+        grid-column: 1 / -1;
+        grid-row: 4 / span 5;
+    }
+    @media(max-width: 320px){
+        grid-column: 1 / -1;
+        grid-row: 4 / span 5;
+    }
+
+    // Landscape Styles
+
+    @media (max-height: 900px) and (orientation: landscape){
+        grid-column: 1 / -1;
+        grid-row: 3 / span 6;
+    }
+
+    @media (max-height: 700px) and (orientation: landscape){
+        grid-column: 1 / -1;
+        grid-row: 3 / span 6;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape){
+        grid-column: 1 / -1;
+        grid-row: 1 / span 7;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape){
+        grid-column: 1 / -1;
+        grid-row: 1 / span 7;
+    }
+
+    .sub-header{
+        position: relative;
+        height: 10rem;
+        width: 60%;
+        transform: translateY(1rem);
+        @media(max-width: 1500px){
+            width: 80%;
+        }
+        @media(max-width: 950px){
+            width: 100%;
+        }
+
+        // Landscape Styles
+        @media (max-height: 500px) and (orientation: landscape){
+            height: 5rem;
+            width: 100%;
+        }
+    }
+}
+
+.home-contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5rem;
+    border-top: .3rem groove rgba($colorOffWhite, .75);
+    border-left: .3rem groove rgba($colorOffWhite, .75);
+    transition: background-color .5s;
+    z-index: 3;
+    @media(max-width: 1250px){
+        grid-column: 18 / span 1;
+        grid-row: 12 / span 1;
+        align-self: flex-end;
+    }
+    @media(max-width: 950px){
+        grid-column: 12 / span 1;
+        grid-row: 18 / span 1;
+        align-self: end;
+    }
+    @media(max-width: 750px){
+        height: 8rem;
+        width: 8rem;
+        grid-column: 11 / span 2;
+        grid-row: 18 / span 1;
+        justify-self: flex-end;
+        align-self: end;
+    }
+    @media(max-width: 500px){
+        height: 6rem;
+        width: 6rem;
+        border-top-left-radius: 3rem;
+        grid-column: 9 / span 2;
+        grid-row: 12 / span 1;
+        justify-self: flex-end;
+    }
+    @media(max-width: 375px){
+        height: 5rem;
+        width: 5rem;
+        grid-column: 9 / span 2;
+        grid-row: 12 / span 1;
+        justify-self: flex-end;
+    }
+    @media(max-width: 320px){
+        border-top-left-radius: 2rem;
+        grid-column: 9 / span 2;
+        grid-row: 12 / span 1;
+        justify-self: flex-end;
+    }
+
+    //Landscape Styles
+    
+    @media (max-height: 700px) and (orientation: landscape){
+        height: 8rem;
+        width: 8rem;
+        border-top-left-radius: 3rem;
+        grid-column: 18 / span 1;
+        grid-row: 12 / span 1;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape){
+        height: 6rem;
+        width: 6rem;
+        border-top-left-radius: 3rem;
+        grid-column: 12 / span 1;
+        grid-row: 10 / span 1;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape){
+        height: 5rem;
+        width: 5rem;
+        border-top-left-radius: 2rem;
+        grid-column: 12 / span 1;
+        grid-row: 10 / span 1;
+    }
+
+    &-envelope{
+        transform: translate(.5rem, .5rem);
+    }
+    &:hover{
+        cursor: pointer;
+        background-color: rgba($colorOffWhite, .75);
+    }
+}

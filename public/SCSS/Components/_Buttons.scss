@@ -1,0 +1,129 @@
+.button{
+    position: relative;
+    display: grid;
+    height: 5rem;
+    width: 30rem;
+    justify-content: center;
+    align-content: center;
+    border-radius: .75rem;
+    border: .3rem groove rgba($colorOffWhite, .75);
+}
+.home-cta{
+    transform: translateY(2rem);
+    background-color: transparent;
+    transition: background-color .5s;
+    height: 6rem;
+    &:hover{
+        cursor: pointer;
+        background-color: rgba($colorOffWhite, .75);
+    }
+    @media(max-width: 950px){
+        transform: translateY(-.75rem);
+    }
+    @media(max-width: 750px){
+        transform: translateY(0rem);
+    }
+    @media(max-width: 350px){
+        height: 4.5rem;
+        width: 25rem;
+        transform: translateY(-2rem);
+    }
+
+    // Landscape Styles
+    @media (max-height: 500px) and (orientation: landscape){
+        height: 4rem;
+        width: 24rem;
+        transform: translateY(2.5rem);
+    }
+    @media (max-height: 375px) and (orientation: landscape){
+        transform: translateY(2.5rem);
+    }
+    @media (max-height: 320px) and (orientation: landscape){
+        transform: translateY(2rem);
+    }
+}
+
+.skill-button{
+    position: relative;
+    display: flex;
+    margin: .75rem;
+    padding:  .75rem;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid  rgba($colorOffWhite, .25);
+    border-radius: 1.25rem;
+    background-color: transparent;
+    @media(max-width: 500px){
+        padding: .4rem;
+        border-radius: .75rem;
+    }
+
+    // Landscape Styles 
+
+    @media (max-height: 500px) and (orientation: landscape){
+        padding: .4rem;
+        border-radius: .75rem;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape){
+        padding: .25rem;
+        border-radius: .5rem;
+    }
+    
+    &:hover{
+        cursor: pointer;
+        border: .2rem solid  rgba($colorOffWhite, .5);
+    }
+    &:active{
+        border: .2rem solid $colorOffWhite;
+    }
+    
+    &.html{
+        &:hover{
+            background-color: $colorMercury;
+        }
+    }
+    &.css{
+        &:hover{
+            background-color: $colorVenus;
+        }
+    }
+    &.js{
+        &:hover{
+            background-color: $colorEarth;
+        }
+    }
+    &.scss{
+        &:hover{
+            background-color: $colorMars;
+        }
+    }
+    &.less{
+        &:hover{
+            background-color: $colorJupiter;
+        }
+    }
+    &.rd{
+        &:hover{
+            background-color: $colorSaturn;
+        }
+        &:active{
+            border: .2rem solid $colorDarkerGrey;
+        }
+    }
+    &.ink{
+        &:hover{
+            background-color: $colorUranus;
+        }
+    }
+    &.il{
+        &:hover{
+            background-color: $colorNeptune;
+        }
+    }
+    &.ps{
+        &:hover{
+            background-color: $colorPluto;
+        }
+    }
+}

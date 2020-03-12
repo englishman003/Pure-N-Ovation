@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Pure N Ovation &mdash; Contact</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="CSS/purenovation.css" />
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your
+        experience.
+      </p>
+    <![endif]-->
+
+  <div class="gridDesktop" id="contact">
+    <div class="main-site-nav-cover column_1-24 row_1-18">
+      <i class="fas fa-bars nav-bars"></i>
+      <i class="fas fa-times nav-times"></i>
+    </div>
+    <header class="main-site-nav-container column_1-24 row_1-18">
+      <nav class="main-site-nav animated">
+        <a href="index.html" class="main-site-nav-link">Home</a>
+        <a href="about.html" class="main-site-nav-link">About</a>
+        <a href="skills.html" class="main-site-nav-link">Skills</a>
+        <a href="portfolio.html" class="main-site-nav-link">Portfolio</a>
+        <a href="contact.html" class="main-site-nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <div class="contact-form-container column_9-8 row_2-15" id="App">
+      <header class="form-title">{{title}}</header>
+      <form action="/contact.html" method="POST" id="emailForm">
+        <div class="name-container">
+          <div class="firstName-container">
+            <input type="text" name="fName" id="fName" v-bind:placeholder="form.fNamePlaceholder"
+              v-model="form.firstName" />
+            <label for="fName">First Name*</label>
+          </div>
+
+          <div class="lastName-container">
+            <input type="text" name="lName" id="lName" v-bind:placeholder="form.lNamePlaceholder"
+              v-model="form.lastName" />
+            <label for="lName">Last Name*</label>
+          </div>
+        </div>
+        <span class="error-container">
+          <p class="name-error" id="fNameError" v-if="form.firstName.length < 3">
+            Please Enter Your First Name.
+          </p>
+          <p class="name-error" id="lNameError" v-if="form.lastName.length < 3">
+            Please Enter Your Last Name
+          </p>
+        </span>
+
+        <input type="email" name="email" id="email" v-bind:placeholder="form.emailPlaceholder" v-model="form.email" />
+        <label for="email">Email Address*</label>
+        <span class="error-container">
+          <p class="error" id="emailError" v-if="!form.emailReg.test(form.email)">
+            Please type a correct email address.
+          </p>
+        </span>
+
+        <input type="text" name="subject" id="subject" v-bind:placeholder="form.subjectPlaceholder"
+          v-model="form.subject" />
+        <label for="subject">Subject*</label>
+        <span class="error-container">
+          <p class="error" id="subjectError" v-if="form.subject.length < 3">
+            Please enter the subject of your message.
+          </p>
+        </span>
+
+        <div class="characterCount">
+          <p class="messageCounter">Character Count</p>
+          {{form.message.length}} / {{form.messageMax}}
+        </div>
+        <textarea id="message" name="message" v-bind:placeholder="form.messagePlaceholder" v-model="form.message"
+          v-bind:maxlength="form.messageMax"></textarea>
+        <label for="message" id="messageLabel">Your Message*</label>
+        <span class="error-container">
+          <p class="error" id="messageError" v-if="form.message.length < 25">
+            Please enter your message.
+          </p>
+        </span>
+
+        <button type="submit" class="message-send" id="sendMessage" @click.prevent="submitForm">
+          Send Message
+        </button>
+      </form>
+    </div>
+
+    <!-- Content Here -->
+
+    <a href="index.html" class="logo-link">
+      <div class="logo-container column_1-2 row_17-2">
+        <svg class="icon icon-PureNOvationLogo_Serif_ODarkGrey my-logo">
+          <use xlink:href="Fonts/logoFont/logo-sprite.svg#icon-PureNOvationLogo_Serif_ODarkGrey"></use>
+        </svg>
+      </div>
+    </a>
+
+    <button class="site-footer-button column_1-24 row_18-1">Let's Connect</button>
+    <footer class="site-footer column_1-24 row_17-2">
+      <div class="social-media-container">
+        <div class="social-media-container-sub-1">
+          <a href="https://www.facebook.com/ncluff003/" class="social-media-link facebook"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/ncluff3/" class="social-media-link twitter"><i
+              class="fab fa-twitter"></i></a>
+        </div>
+        <div class="social-media-container-sub-2">
+          <a href="https://www.linkedin.com/in/ncluff003/" class="social-media-link linkedin"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.github.com/englishman003/" class="social-media-link github"><i
+              class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <div class="contact-contact column_24-1 row_18-1">
+      <i class="far fa-envelope home-contact-envelope"></i>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vuex"></script>
+  <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="JS/base.js" async defer></script>
+  <script src="JS/email.js" async defer></script>
+  <script src="JS/contact-email.js" async defer></script>
+  <script src="JS/sendEmail.js" async defer></script>
+  <script src="JS/contact.js" async defer></script>
+</body>
+
+</html>

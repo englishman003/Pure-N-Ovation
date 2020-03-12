@@ -1,0 +1,145 @@
+.main-site-nav-cover{
+    .nav-bars{
+        transform: translate(.5rem, -.5rem);
+    }
+    &-nav{
+        position: relative;
+        display: none;
+    }
+    .nav-times{
+        display: none;
+        transform: translate(.5rem, -.5rem);
+    }
+    &-nav{
+        position: relative;
+        display: none;
+    }
+}
+
+.main-site-nav-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    border-bottom-left-radius: 5rem;
+
+    @media(max-width: 750px){
+        height: 5rem;
+        width: 5rem;
+    }
+
+    z-index: 9;
+    transition: height .5s, width .5s, background-color 1s, border-bottom-left-radius 1s;
+    .main-site-nav{
+        position: relative;
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60%;
+        width: 100%;
+        &-link{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 17.5%;
+            width: 25%;
+            background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba($colorWhite, .7) 50%);
+            background-size: 300%;
+            transition: all .5s;
+            border-radius: 2rem;
+            @media(max-width: 1750px){
+                width: 27.5%;
+            }
+            @media(max-width: 1500px){
+                width: 30%;
+            }
+            @media(max-width: 1250px){
+                width: 40%;
+            }
+            @media(max-width: 950px){
+                width: 50%;
+            }
+            @media(max-width: 750px){
+                width: 72.5%;
+            }
+            @media(max-width: 500px){
+                width: 75%;
+            }
+            @media(max-width: 375px){
+                width: 85%;
+            }
+            @media(max-width: 350px){
+                width: 90%;
+            }
+            &:hover{
+                background-position: 100%;
+                transform: translateX(1rem);
+            }
+            &:active{
+                background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba($colorWhite, 1) 50%);
+            }
+            // Landscape Styles
+            @media (max-height: 700px) and (orientation: landscape){
+                width: 50%;
+                transform: translateY(-4rem);
+                &:hover{
+                    background-position: 100%;
+                    transform: translate(1rem, 4rem);
+                }
+            }
+            @media (max-height: 900px) and (orientation: landscape){
+                width: 40%;
+                transform: translateY(-8rem);
+                &:hover{
+                    transform: translate(1rem, -8rem);
+                }
+            }
+            @media (max-height: 500px) and (orientation: landscape){
+                width: 40%;
+            }
+            @media (max-height: 375px) and (orientation: landscape){
+                width: 40%;
+                margin: 1rem 0;
+                padding: .5rem 0;
+                transform: translateY(-3.5rem);
+                &:hover{
+                    background-position: 100%;
+                    transform: translate(1rem, -3.5rem);
+                }
+            }
+            @media (max-height: 320px) and (orientation: landscape){
+                transform: translateY(-2.25rem);
+                &:hover{
+                    background-position: 100%;
+                    transform: translate(1rem, -2.25rem);
+                }
+            }
+        }
+    }
+}
+
+.page-counter{
+    position: relative;
+    .page-icon-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .page{
+            position: relative;
+            transition: color 1s;
+        }
+    }
+}
+
+.nav-full-height{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba($secondaryColor, .9);
+    border-bottom-left-radius: 0;
+}

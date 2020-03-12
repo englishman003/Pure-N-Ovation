@@ -1,0 +1,138 @@
+@keyframes fader {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@keyframes orbit{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes invert {
+    0%   { transform: rotateX(-90deg) rotateY(-360deg) rotateZ(0deg); }
+    100% { transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); }
+  }
+
+
+
+@keyframes shadow-pluto {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -.25rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -.75rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -1rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -1.5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 1.5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 1rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset .75rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset .25rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-neptune {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -.5rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -1rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -2rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -3.5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 3.5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 2rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 1rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset .5rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-uranus {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -3rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 5rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 3rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset 1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-saturn {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -3rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -5rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -7rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 7rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 5rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 3rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset 1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-jupiter {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -2rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -4rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -6rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -9rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 9rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 6rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 4rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset 2rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-mars {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -2.75rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -3rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 3rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 2.75rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset 1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-earth {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -3rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -3.25rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 3.25rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 3rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 2rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset 1rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-venus {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -.5rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -1rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -2rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -2.25rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 2.25rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 2rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset 1rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset .5rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }
+
+@keyframes shadow-mercury {
+    0%     { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+    12.5%    { box-shadow: inset -.25rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* left */ }
+    25%    { box-shadow: inset -.75rem 0rem 1rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    37.5%    { box-shadow: inset -1rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50%    { box-shadow: inset -1.75rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    50.01%    { box-shadow: inset 1.75rem 0rem 2.5rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    62.5%    { box-shadow: inset 1rem 0rem .75rem rgba(0, 0, 0, 0.5); /* bottom */ }
+    75%    { box-shadow: inset .75rem 0rem 1rem rgba(0, 0, 0, 0.5); /* right */ }
+    87.5%    { box-shadow: inset .25rem 0rem 1.25rem rgba(0, 0, 0, 0.5); /* right */ }
+    100%   { box-shadow: inset 0rem 0rem .5rem rgba(0, 0, 0, 0.5); /* top */ }
+  }

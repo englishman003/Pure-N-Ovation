@@ -1,0 +1,67 @@
+.main-site-nav-cover{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border-left: .3rem groove rgba($colorOffWhite, .75);
+    border-bottom: .3rem groove rgba($colorOffWhite, .75);
+    border-bottom-left-radius: 5rem;
+    @media(max-width: 750px){
+        height: 8rem;
+        width: 8rem;
+    }
+    @media(max-width: 500px){
+        height: 6rem;
+        width: 6rem;
+        border-bottom-left-radius: 3rem;
+    }
+    @media(max-width: 375px){
+        height: 5rem;
+        width: 5rem;
+    }
+    @media(max-width: 320px){
+        border-bottom-left-radius: 2rem;
+    }
+
+    // Landscape Styles
+
+    @media (max-height: 900px) and (orientation: landscape){
+        height: 10rem;
+        width: 10rem;
+        border-bottom-left-radius: 3rem;
+    }
+    @media (max-height: 700px) and (orientation: landscape){
+        height: 8rem;
+        width: 8rem;
+        border-bottom-left-radius: 3rem;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape){
+        height: 5rem;
+        width: 5rem;
+        border-bottom-left-radius: 3rem;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape){
+        height: 5rem;
+        width: 5rem;
+        border-bottom-left-radius: 2rem;
+    }
+    
+    z-index: 10;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgba($colorOffWhite, .75);
+    }
+    &:active{
+        background-color: rgba($colorOffWhite, .95);
+        & > .nav-bars{
+            color: $secondaryColor;
+        }
+    }
+}

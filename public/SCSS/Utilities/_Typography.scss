@@ -1,0 +1,1212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700,800&display=swap');
+
+/////////////////////////////////
+// Base
+html {
+
+    font-family: Roboto Condensed, Lato, Century Gothic, Verdana, Sans-Serif;
+
+}
+
+// Home Page Navigation
+.page-counter .page-icon-container {
+    font-size: 3rem;
+    color: rgba(17, 4, 4, 0.5);
+
+    .page {
+        &:hover {
+            cursor: pointer;
+            color: #FAFAFA;
+        }
+    }
+
+    // Landscape Styles
+    @media (max-height: 500px) and (orientation: landscape) {
+        font-size: 2rem;
+    }
+}
+
+.active-page {
+    color: #FFFFFF;
+}
+
+//  Page Navigation
+a .logo-container {
+    .my-logo {
+        fill: rgba($colorOffWhite, .75);
+        transition: fill .5s;
+    }
+
+    &:hover {
+        &>.my-logo {
+            fill: rgba($primaryColor, .75);
+        }
+    }
+
+    .about-my-logo {
+        fill: rgba($colorOffWhite, .75);
+        transition: fill .5s;
+    }
+
+    &:hover {
+        &>.about-my-logo {
+            fill: $secondaryColor;
+        }
+    }
+
+    .skills-my-logo {
+        fill: rgba($colorOffWhite, .75);
+        transition: fill .5s;
+    }
+
+    &:hover {
+        &>.skills-my-logo {
+            fill: rgba($colorDarkestGrey, .75);
+        }
+    }
+
+    .portfolio-my-logo {
+        fill: rgba($colorOffWhite, .75);
+        transition: fill .5s;
+    }
+
+    &:hover {
+        &>.portfolio-my-logo {
+            fill: rgba($tertiaryColor, .75);
+        }
+    }
+}
+
+.main-site-nav-cover {
+    .nav-bars {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media (max-height: 700px) and (orientation: landscape) {
+            font-size: 3rem;
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            font-size: 2.4rem;
+        }
+
+        @media (max-height: 375px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+
+    }
+
+    &:hover {
+        &>.nav-bars {
+            color: rgba($primaryColor, .75);
+        }
+    }
+
+    .nav-times {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media (max-height: 700px) and (orientation: landscape) {
+            font-size: 3rem;
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            font-size: 2.4rem;
+        }
+
+        @media (max-height: 375px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover {
+        &>.nav-times {
+            color: rgba($primaryColor, .75);
+        }
+    }
+
+    .about-nav-bars {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media(max-height: 900px) and (orientation: landscape) {
+            font-size: 2.4rem;
+        }
+
+        @media(max-height: 500px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover {
+        &>.about-nav-bars {
+            color: $secondaryColor;
+        }
+    }
+
+    .about-nav-times {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 499px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media(max-height: 900px) and (orientation: landscape) {
+            font-size: 2.4rem;
+        }
+
+        @media(max-height: 500px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover {
+        &>.about-nav-times {
+            color: rgba($secondaryColor, .75);
+        }
+    }
+
+    .skills-nav-bars {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 499px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media(max-height: 500px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover {
+        &>.skills-nav-bars {
+            color: rgba($colorDarkestGrey, .75);
+        }
+    }
+
+    .skills-nav-times {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+
+        @media(max-width: 750px) {
+            font-size: 3rem;
+        }
+
+        @media(max-width: 499px) {
+            font-size: 2rem;
+        }
+
+        // Landscape Styles
+        @media(max-height: 500px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+
+    &:hover {
+        &>.skills-nav-times {
+            color: rgba($colorDarkestGrey, .75);
+        }
+    }
+
+    .portfolio-nav-bars {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+    }
+
+    &:hover {
+        &>.portfolio-nav-bars {
+            color: rgba($tertiaryColor, .75);
+        }
+    }
+
+    .portfolio-nav-times {
+        font-size: 4rem;
+        color: rgba($colorOffWhite, .75);
+        transition: color .5s;
+    }
+
+    &:hover {
+        &>.portfolio-nav-times {
+            color: rgba($tertiaryColor, .75);
+        }
+    }
+}
+
+.main-site-nav-container {
+    font-size: 6rem;
+    font-weight: bold;
+
+    .main-site-nav {
+        &-link {
+            text-decoration: none;
+            color: $colorWhite;
+
+            &:hover {
+                color: $secondaryColor;
+            }
+
+            &:active {
+                color: $primaryColor;
+            }
+        }
+    }
+
+    // Landscape Styles
+    @media (max-height: 800px) and (orientation: landscape) {
+        font-size: 3rem;
+    }
+
+    @media (max-height: 500px) and (orientation: landscape) {
+        font-size: 2.4rem;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape) {
+        font-size: 2rem;
+    }
+}
+
+.site-footer-button {
+    font-size: 3rem;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: $primaryColor;
+    }
+
+    @media(max-width: 750px) {
+        font-size: 2rem;
+    }
+
+    @media(max-width: 375px) {
+        font-size: 1.4rem;
+    }
+}
+
+.about-site-footer-button {
+    font-size: 3rem;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: $secondaryColor;
+    }
+
+    @media(max-width: 750px) {
+        font-size: 2rem;
+        color: $colorWhite;
+    }
+
+    @media(max-width: 500px) {
+        font-size: 1.6rem;
+    }
+
+    @media(max-width: 375px) {
+        font-size: 1.4rem;
+    }
+}
+
+.skills-site-footer-button {
+    font-size: 3rem;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: $colorDarkestGrey;
+    }
+
+    @media(max-width: 750px) {
+        font-size: 2rem;
+    }
+
+    @media(max-width: 375px) {
+        font-size: 1.4rem;
+    }
+}
+
+.portfolio-site-footer-button {
+    font-size: 3rem;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: $tertiaryColor;
+    }
+}
+
+.site-footer {
+    .social-media-container {
+
+        &-sub-1,
+        &-sub-2 {
+            .social-media-link {
+                font-size: 3rem;
+                color: rgba($colorDarkerGrey, .25);
+                text-decoration: none;
+
+                @media(max-width: 750px) {
+                    font-size: 2rem;
+                }
+
+                @media(max-width: 375px) {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .facebook,
+            .twitter,
+            .linkedin,
+            .github {
+                &:hover {
+                    color: $colorWhite;
+                }
+            }
+
+            .github {
+                &:hover {
+                    color: $colorDarkestGrey;
+                }
+            }
+        }
+    }
+}
+
+.home-contact,
+.about-contact,
+.skills-contact,
+.portfolio-contact {
+    font-size: 3rem;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: rgba($colorOffWhite, .95);
+    }
+}
+
+.home-contact {
+    &:hover {
+        &>.home-contact-envelope {
+            color: rgba($primaryColor, .75);
+        }
+    }
+
+    @media(max-width: 750px) {
+        font-size: 3rem;
+    }
+
+    @media(max-width: 500px) {
+        font-size: 2rem;
+    }
+
+    // Landscape Styles
+    @media (max-height: 500px) and (orientation: landscape) {
+        font-size: 2.4rem;
+    }
+
+    @media (max-height: 375px) and (orientation: landscape) {
+        font-size: 2rem;
+    }
+}
+
+.about-contact {
+    &:hover {
+        &>.home-contact-envelope {
+            color: $secondaryColor;
+        }
+    }
+
+    @media(max-width: 750px) {
+        font-size: 3rem;
+    }
+
+    @media(max-width: 500px) {
+        font-size: 2rem;
+    }
+
+    // Landscape Styles
+    @media(max-height: 900px) and (orientation: landscape) {
+        font-size: 2.4rem;
+    }
+
+    @media(max-height: 500px) and (orientation: landscape) {
+        font-size: 2rem;
+    }
+}
+
+.skills-contact {
+    &:hover {
+        &>.home-contact-envelope {
+            color: rgba($colorDarkestGrey, .75);
+        }
+    }
+
+    @media(max-width: 750px) {
+        font-size: 3rem;
+    }
+
+    @media(max-width: 500px) {
+        font-size: 2rem;
+    }
+
+    // Landscape Styles
+    @media(max-height: 500px) and (orientation: landscape) {
+        font-size: 2rem;
+    }
+}
+
+.portfolio-contact {
+    &:hover {
+        &>.home-contact-envelope {
+            color: rgba($tertiaryColor, .75);
+        }
+    }
+}
+
+// Home Page Content
+.heading-container {
+    color: rgba($colorOffWhite, .75);
+
+    .main-header {
+        font-size: 12rem;
+        font-weight: bolder;
+        text-align: center;
+        font-variant: small-caps;
+
+        @media(max-width: 1250px) {
+            font-size: 9rem;
+        }
+
+        @media(max-width: 950px) {
+            font-size: 6.5rem;
+        }
+
+        @media(max-width: 750px) {
+            font-size: 5rem;
+        }
+
+        @media(max-width: 499px) {
+            font-size: 3.7rem;
+        }
+
+        @media(max-width: 350px) {
+            font-size: 3.2rem;
+        }
+
+        // Landscape Styles
+        @media (max-height: 700px) and (orientation: landscape) {
+            font-size: 5rem;
+        }
+    }
+
+    .sub-header {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgba($colorDarkestGrey, .5);
+
+        @media(max-width: 950px) {
+            font-size: 2.4rem;
+        }
+
+        @media(max-width: 750px) {
+            font-size: 1.8rem;
+        }
+
+        @media(max-width: 350px) {
+            font-size: 1.4rem;
+        }
+
+        // Landscape Styles
+        @media (max-height: 700px) and (orientation: landscape) {
+            font-size: 2.4rem;
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            font-size: 2rem;
+        }
+    }
+}
+
+.home-cta {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: rgba($colorOffWhite, .75);
+    transition: color .5s;
+
+    &:hover {
+        color: rgba($primaryColor, .75);
+    }
+
+    @media(max-width: 350px) {
+        font-size: 2rem;
+    }
+
+    // Landscape Styles
+    @media (max-height: 500px) and (orientation: landscape) {
+        font-size: 1.6rem;
+    }
+}
+
+///////////////////////////////////////////////
+//              About Page
+
+.about-me-container {
+    &_photo-container {
+        &_nav {
+            &-link {
+                text-decoration: none;
+
+                &_content {
+                    font-size: 1.4rem;
+                    font-family: Bree Serif, Roboto Condensed, sans-serif;
+                    text-align: center;
+                    color: $secondaryColor;
+
+                    @media(max-width: 950px) {
+                        font-size: 1.2rem;
+                    }
+
+                    @media(max-width: 750px) {
+                        font-size: 1.4rem;
+                    }
+                }
+
+                &:hover {
+                    &>.about-me-container_photo-container_nav-link_content {
+                        color: $colorOffWhite;
+                    }
+
+                    ;
+                }
+            }
+        }
+
+        &_image-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 15%;
+            width: 15%;
+            margin: 1rem;
+            background-color: transparent;
+
+            &_image {
+                .picture2 {
+                    color: $secondaryColor;
+                }
+            }
+        }
+    }
+
+    &_content-container {
+        &_content-slider-container {
+            &_content-slider {
+                &_arrow-button {
+                    .basketball-container {
+                        font-size: 8.5rem;
+                        color: orange;
+
+                        @media(max-width: 1750px) {
+                            font-size: 6.5rem;
+                        }
+
+                        @media(max-width: 1500px) {
+                            font-size: 5.5rem;
+                        }
+
+                        @media(max-width: 1250px) {
+                            font-size: 4.5rem;
+                        }
+
+                        @media(max-width: 950px) {
+                            font-size: 4rem;
+                        }
+
+                        @media(max-width: 375px) {
+                            font-size: 2.6rem;
+                        }
+                    }
+
+                    .basketball-container-left {
+                        &:hover {
+                            cursor: pointer;
+
+                            &>.leftArrow {
+                                color: $secondaryColor;
+                            }
+                        }
+
+                        .leftArrow {
+                            font-size: 3rem;
+                            color: rgba($colorOffWhite, .85);
+
+                            @media(max-width: 950px) {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+
+                    .basketball-container-right {
+                        &:hover {
+                            cursor: pointer;
+
+                            &>.rightArrow {
+                                color: $secondaryColor;
+                            }
+                        }
+
+                        .rightArrow {
+                            font-size: 3rem;
+                            color: rgba($colorOffWhite, .85);
+
+                            @media(max-width: 950px) {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+
+                &_title {
+                    font-size: 3rem;
+                    font-family: Bree Serif, Roboto Condensed, sans-serif;
+                    font-weight: bold;
+                    color: $secondaryColor;
+
+                    @media(max-width: 1250px) {
+                        font-size: 2rem;
+                    }
+
+                    @media(max-width: 950px) {
+                        font-size: 1.8rem;
+                    }
+
+                    @media(max-width: 500px) {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+        &_content {
+            font-family: Bree Serif, Roboto Condensed, Verdana, sans-serif;
+            font-size: 2rem;
+            hyphens: auto;
+            color: $secondaryColor;
+
+            @media(max-width: 1250px) {
+                font-size: 1.8rem;
+            }
+
+            @media(max-width: 950px) {
+                font-size: 1.6rem;
+            }
+
+            @media(max-width: 750px) {
+                text-align: center;
+            }
+
+            @media(max-width: 500px) {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            @media(max-width: 320px) {
+                font-size: 1.4rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+//  SKILLS PAGE
+
+#skills {
+
+    .galaxy-container {
+
+        .milky-way {
+
+            .skills-header {
+
+                color: rgba($colorWhite, .1);
+                font-size: 25rem;
+                font-weight: bold;
+                font-family: Roboto Condensed;
+
+                @media(max-width: 950px) {
+                    font-size: 15rem;
+                }
+
+                @media(max-width: 500px) {
+                    font-size: 10rem;
+                }
+
+                // Landscape Styles 
+                @media (max-height: 700px) and (orientation: landscape) {
+                    font-size: 13.5rem;
+                }
+            }
+
+            .skills-list-container {
+
+                a {
+                    text-decoration: none;
+                }
+
+                .skill-button {
+                    font-size: 1.6rem;
+                    color: rgba($colorOffWhite, .6);
+                    font-weight: bold;
+                    text-decoration: none;
+
+                    @media(max-width: 500px) {
+                        font-size: 1.2rem;
+                    }
+
+                    @media(max-width: 375px) {
+                        font-size: 1rem;
+                    }
+
+                    // Landscape Styles
+                    @media (max-height: 500px) and (orientation: landscape) {
+                        font-size: 1.2rem;
+                    }
+
+                    &:hover {
+                        color: rgba($colorOffWhite, .8);
+                    }
+
+                    &.html {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.css {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.js {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.scss {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.less {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.rd {
+                        &:hover {
+                            color: rgba($colorDarkerGrey, .5);
+                        }
+
+                        &:active {
+                            color: rgba($colorDarkerGrey, .85);
+                        }
+                    }
+
+                    &.ink {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.il {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+
+                    &.ps {
+                        &:active {
+                            color: $colorOffWhite;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    .popup {
+        &-content {
+            &-header {
+                font-size: 5rem;
+                font-weight: bold;
+                color: $colorOffWhite;
+            }
+
+            .close-popup {
+                font-size: 3rem;
+                color: $colorOffWhite;
+                font-weight: bold;
+
+                &:visited {
+                    color: $colorOffWhite;
+                }
+            }
+
+            &-description {
+                color: $colorOffWhite;
+
+                &-title {
+                    font-size: 3rem;
+                    font-weight: bold;
+
+                    @media(max-width: 750px) {
+                        font-size: 2.4rem;
+                    }
+
+                    @media(max-width: 500px) {
+                        font-size: 2rem;
+                    }
+
+                    @media(max-width: 375px) {
+                        font-size: 1.75rem;
+                    }
+                }
+
+                &-paragraph {
+                    font-size: 2rem;
+
+                    @media(max-width: 1250px) {
+                        font-size: 1.6rem;
+                    }
+
+                    @media(max-width: 750px) {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+////////////////////////////////////////////////////
+//       Portfolio Page
+
+.portfolio-card {
+    &:hover {
+
+        &>.portfolio-card_header,
+        &>.portfolio-card_info-paragraph,
+        &>.portfolio-card_info-footer {
+            color: $primaryColor;
+        }
+    }
+
+    &_header {
+        font-size: 2.4rem;
+        color: $colorDarkestGrey;
+        color: $colorOffWhite;
+    }
+
+    &_info {
+        &-paragraph {
+            font-size: 1.8rem;
+            color: $colorDarkestGrey;
+            color: $colorOffWhite;
+            text-align: center;
+
+            @media(max-width: 360px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        &-footer {
+            font-size: 1.2rem;
+            color: $colorDarkestGrey;
+            color: $colorOffWhite;
+        }
+    }
+}
+
+.big-portfolio-viewport {
+    .big-project-picture-container {
+        .project-media-container {
+
+            .arrow-left-container,
+            .arrow-right-container {
+                font-size: 3rem;
+                color: $tertiaryColor;
+            }
+        }
+    }
+
+    .project-bio-container {
+        &_header {
+            &_project-title {
+                font-size: 5rem;
+                color: $colorDarkerGrey;
+            }
+
+            &_close {
+                font-size: 5rem;
+                color: $tertiaryColor;
+
+                &:hover {
+                    color: $colorDarkerGrey;
+                }
+            }
+        }
+
+        &_project-description {
+            font-size: 2rem;
+            color: $colorDarkerGrey;
+        }
+
+        &_links {
+            &_link {
+                font-size: 2rem;
+                color: rgba($colorDarkerGrey, .75);
+                text-decoration: none;
+
+                &:hover {
+                    color: $colorDarkerGrey;
+                }
+            }
+        }
+
+        &_project-traverse {
+
+            &_previous,
+            &_next {
+
+                .previous-project,
+                .next-project {
+                    font-size: 2rem;
+                    color: rgba($colorOffWhite, .75);
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+/* -------------------- Contact Page ---------------------- */
+
+.contact-form-container {
+
+    .form-title {
+        font-size: 4.8rem;
+        font-weight: bold;
+        font-family: Freestyle Script, Bree Serif, Roboto Condensed, Verdana, sans-serif;
+        color: $colorOffWhite;
+    }
+
+    form {
+
+        .name-container {
+
+            .firstName-container,
+            .lastName-container {
+
+                font-size: 2rem;
+
+                #fName,
+                #lName {
+                    font-family: Roboto Condensed, Lato, Helvetica, Verdana, sans-serif;
+                    font-size: 2rem;
+                    color: $colorOffWhite;
+
+                    &:hover {
+                        cursor: text;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+
+                    &::placeholder {
+                        color: $colorOffWhite;
+                        font-size: 1.6rem;
+                    }
+                }
+
+            }
+        }
+
+        #email,
+        #subject,
+        #message {
+            font-family: Roboto Condensed, Lato, Helvetica, Verdana, sans-serif;
+            font-size: 2rem;
+            color: $colorOffWhite;
+
+            &:hover {
+                cursor: text;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            &::placeholder {
+                color: $colorOffWhite;
+                font-size: 1.6rem;
+            }
+        }
+
+        .characterCount {
+            font-size: 1.4rem;
+            color: $colorOffWhite;
+        }
+
+        label {
+            font-size: 2rem;
+            color: $colorOffWhite;
+        }
+
+        .error-container {
+            font-size: 1.6rem;
+            color: red;
+        }
+
+        .message-send {
+            font-size: 1.6rem;
+            color: $colorOffWhite;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $colorOffWhite;
+                color: $quinaryColor;
+            }
+        }
+    }
+}
+
+// .contact-me-header{
+//     color: $quinaryColor;
+//     font-size: 3rem;
+//     font-weight: bold;
+// }
+
+// .contact-form-device{
+//     .email-form{
+//         span{
+//             font-size: 2rem;
+//             font-weight: bold;
+//             color: red;
+//         }
+//         .nameLabel, .emailLabel, .messageLabel{
+//             font-size: 2rem;
+//             color: rgba($colorOffWhite, .75);
+//             font-weight: bold;
+//         }
+
+//         input{
+//             font-size: 2rem;
+//             font-family: Roboto Condensed, Helvetica, Verdana, Arial, sans serif;
+//             color: $colorOffWhite;
+//         }
+
+//         textarea{
+//             font-family: Roboto Condensed, Verdana, sans serif;
+//             font-size: 2rem;
+//             color: $colorOffWhite;
+//         }
+
+//         input::placeholder, textarea::placeholder{
+//             color: $colorOffWhite;
+//         }
+
+//     }
+
+//     .text-message-form{
+//         span{
+//             font-size: 2rem;
+//             font-weight: bold;
+//             color: red;
+//         }
+//         .nameLabel, .phoneLabel, .messageLabel{
+//             font-size: 2rem;
+//             color: rgba($colorOffWhite, .75);
+//             font-weight: bold;
+//         }
+
+//         input{
+//             font-size: 2rem;
+//             color: $colorOffWhite;
+//         }
+
+//         textarea{
+//             font-family: Roboto Condensed, Verdana, sans serif;
+//             font-size: 2rem;
+//             color: $colorOffWhite;
+//         }
+
+//         input::placeholder, textarea::placeholder{
+//             color: $colorOffWhite;
+//         }
+
+//     }
+//     .form-send-button{
+//         font-size: 1.6rem;
+//         color: $colorOffWhite;
+//         font-weight: bold;
+//         &:active{
+//             color: $colorDarkGrey;
+//         }
+//     }
+// }

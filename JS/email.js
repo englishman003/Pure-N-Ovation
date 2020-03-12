@@ -1,19 +1,6 @@
-const express = require(`./../node_modules/express`);
-const { body, validationResult } = require('express-validator/check');
-const { sanitizeBody } = require('express-validator/filter');
-const nodemailer = require(`./../node_modules/nodemailer`);
+const nodemailer = require(`nodemailer`);
 const pug = require(`pug`);
 const htmlToText = require(`html-to-text`);
-const app = require(`./app`);
-// const urlencodedParser = require(`./../node_modules/urlencodedParser`);
-app.use(express.json());
-app.use(
-  express.urlencoded({
-    extended: true
-  })
-);
-
-// const htmlToText = require(`htmlToText`);
 
 // new Email(firstName, lastName, emailAddress, subject, message).sendEmail();
 
@@ -90,26 +77,3 @@ module.exports = class Email {
     await this.send(`userEmail`);
   }
 };
-
-const Email = require(`./email`);
-
-const sendMessage = document.getElementById(`sendMessage`);
-
-const first = document.getElementById(`fName`).value;
-const last = document.getElementById(`lName`).value;
-const emailValue = document.getElementById(`email`).value;
-const subjectValue = document.getElementById(`subject`).value;
-const messageValue = document.getElementById(`message`).value;
-
-sendMessage.addEventListener('click', () => {
-  let yourEmail = new Email(first, last, emailValue, subjectValue, messageValue);
-  yourEmail.sendEmail();
-  console.log(`My Goodness An Email!`);
-  alert(`An Email Was Sent!`);
-});
-
-app.post('/submitContactForm', express.urlencoded, (req, res) => {
-  console.log(req.body);
-  alert(req.body);
-  return res.send(req.body);
-});

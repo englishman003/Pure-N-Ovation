@@ -1,0 +1,113 @@
+
+$fa-font-path: "../webfonts";
+
+/////////////////////////////
+//         COLORS
+
+/////////////////////////////
+//      Primary Color
+$primaryColor: #FFE762;
+$primaryColorLight: lighten(#FFE762, 10%);
+$primaryColorLighter: lighten(#FFE762, 20%);
+$primaryColorDark:darken(#FFE762, 10%);
+$primaryColorDarker: darken(#FFE762, 20%);
+
+/////////////////////////////
+//     Secondary Color
+$secondaryColor: #6EB5FF;
+$secondaryColorLight: lighten(#6EB5FF, 10%);
+$secondaryColorLighter: lighten(#6EB5FF, 20%);
+$secondaryColorDark: darken(#6EB5FF, 10%);
+$secondaryColorDarker: darken(#6EB5FF, 20%);
+
+
+/////////////////////////////
+//     Tertiary Color
+$tertiaryColor: #6AFF62;
+$tertiaryColorLight: lighten(#6AFF62, 10%);
+$tertiaryColorLighter: lighten(#6AFF62, 20%);
+$tertiaryColorDark: darken(#6AFF62, 10%);
+$tertiaryColorDarker: darken(#6AFF62, 20%);
+
+
+/////////////////////////////
+//    Quaternary Color
+$quaternaryColor: #FF6266;
+$quaternaryColorLight: Lighten(#FF6266, 10%);
+$quaternaryColorLighter: lighten(#FF6266, 20%);
+$quaternaryColorDark: darken(#FF6266, 10%);
+$quaternaryColorDarker: darken(#FF6266, 20%);
+
+/////////////////////////////
+//    Quinary Color
+
+$quinaryColor: #9C73FF;
+$quinaryColorLight: lighten(#9C73FF, 10%);
+$quinaryColorLighter: lighten(#9C73FF, 20%);
+$quinaryColorDark: darken(#9C73FF, 10%);
+$quinaryColorDarker: darken(#9C73FF, 20%);
+
+/////////////////////////////
+//    Senary Color
+
+$senaryColor: #FFC062;
+$senaryColorLight: lighten(#FFC062, 10%);
+$senaryColorLighter: lighten(#FFC062, 20%);
+$senaryColorDark: darken(#FFC062, 10%);
+$senaryColorDarker: darken(#FFC062, 20%);
+
+//   Septenary Color
+
+$septenaryColor: #66E7FF;
+$septenaryColorLight: lighten(#66E7FF, 10%);
+$septenaryColorLighter: lighten(#66E7FF, 20%);
+$septenaryColorDark: darken(#66E7FF, 10%);
+$septenaryColorDarker: darken(#66E7FF, 20%);
+
+/////////////////////////////
+//       Color Black
+$colorBlack: #000000;
+
+
+/////////////////////////////
+//       Color Greyscale
+$colorDarkestGrey: #111111;
+$colorDarkerGrey: #333333;
+$colorDarkGrey: #555555;
+$colorGrey: #777777;
+$colorLightGrey: #999999;
+$colorLighterGrey: #bbbbbb;
+$colorLightestGrey: #dddddd;
+
+
+/////////////////////////////
+//       Color White
+$colorWhite: #FFFFFF;
+$colorOffWhite: #FAFAFA;
+
+///////////////////////////////////
+//       Alternate Colors
+
+$colorSilver: #C0C0C0;
+
+/////////////////////////////
+//   Planet Colors
+
+// Mercury
+    $colorMercury: #9C6B29;
+// Venus
+    $colorVenus: #EB9D37;
+// Earth
+    $colorEarth: #3E6D35;
+// Mars
+    $colorMars: #904910;
+// Jupiter
+    $colorJupiter: #B13C18;
+// Saturn
+    $colorSaturn: #FFFF97;
+// Uranus
+    $colorUranus: #30BEF2;
+// Neptune
+    $colorNeptune: #5965D7;
+// Pluto
+    $colorPluto: #7E9898;

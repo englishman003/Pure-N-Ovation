@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920px"
+   height="1080px"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="portfolio-page-design.svg">
+  <defs
+     id="defs6191" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.52902063"
+     inkscape:cx="853.29532"
+     inkscape:cy="560.30655"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6749"
+       color="#3f3fff"
+       opacity="0"
+       spacingx="16"
+       spacingy="12" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6194">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1487"
+       width="1920"
+       height="1080"
+       x="0"
+       y="2.0203052" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="294.92374"
+       y="-45.857864"
+       id="text1422"><tspan
+         sodipodi:role="line"
+         id="tspan1420"
+         x="294.92374"
+         y="-45.857864">These 2 Halves split upon clicking on the info of a portfolio piece card.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-592"
+       y="228"
+       id="text1529"><tspan
+         sodipodi:role="line"
+         id="tspan1527"
+         x="-592"
+         y="263.39062" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2000"
+       y="600"
+       id="text1590"><tspan
+         sodipodi:role="line"
+         id="tspan1588"
+         x="2000"
+         y="600">Red Box is the container that holds each project as a single object.</tspan><tspan
+         sodipodi:role="line"
+         x="2000"
+         y="650"
+         id="tspan1592">Then you are able to cycle through them when this container is open.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Big Portfolio Project Viewer"
+     style="display:inline">
+    <rect
+       style="opacity:0.8;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1586"
+       width="1760"
+       height="960"
+       x="80"
+       y="60" />
+    <rect
+       style="opacity:0.8;fill:#008080;fill-opacity:1;stroke:#ffffff;stroke-width:3.14642644;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1605"
+       width="800"
+       height="660"
+       x="160"
+       y="120" />
+    <rect
+       style="opacity:0.8;fill:#008000;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1607"
+       width="800"
+       height="168"
+       x="160"
+       y="792" />
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:15.95238209;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect907-1"
+       width="153.14287"
+       height="134"
+       x="752"
+       y="809" />
+    <rect
+       style="opacity:0.8;fill:#ff7f2a;fill-opacity:1;stroke:#ffffff;stroke-width:3.3844564;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1609"
+       width="720"
+       height="840"
+       x="1040"
+       y="120" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect870"
+       width="80"
+       height="168"
+       x="160"
+       y="792" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 218.13333,900 -32,-24 32,-24"
+       id="path887"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#000080;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect870-4"
+       width="80"
+       height="168"
+       x="-958.1333"
+       y="792"
+       transform="scale(-1,1)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 900,900 32,-24 -32,-24"
+       id="path887-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:15.95238209;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect907"
+       width="153.14287"
+       height="134"
+       x="256"
+       y="809" />
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:15.95238209;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect907-9"
+       width="153.14287"
+       height="134"
+       x="421.33334"
+       y="809" />
+    <rect
+       style="fill:#803300;fill-opacity:1;stroke:none;stroke-width:15.95238209;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect907-3"
+       width="153.14287"
+       height="134"
+       x="586.66669"
+       y="809" />
+    <rect
+       style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect966"
+       width="720"
+       height="156"
+       x="1040"
+       y="120" />
+    <g
+       id="g958"
+       transform="matrix(0.92699689,0,0,0.92699689,121.86695,13.524854)">
+      <rect
+         y="142"
+         x="1629.0594"
+         height="110.9406"
+         width="110.9406"
+         id="rect949"
+         style="fill:#2b6868;fill-opacity:1;stroke:none;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text953"
+         y="212.05038"
+         x="1670.8579"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="212.05038"
+           x="1670.8579"
+           id="tspan951"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1169.7955"
+       y="214.09599"
+       id="text970"><tspan
+         sodipodi:role="line"
+         id="tspan968"
+         x="1169.7955"
+         y="214.09599"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif'">Project Title</tspan></text>
+    <rect
+       style="opacity:0.5;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:46.9295311;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect972"
+       width="720"
+       height="444"
+       x="1040"
+       y="276" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:125%;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1194.0654"
+       y="540.07202"
+       id="text976"><tspan
+         sodipodi:role="line"
+         id="tspan974"
+         x="1194.0654"
+         y="540.07202">Project Description</tspan></text>
+    <g
+       id="g1212"
+       transform="translate(200,8)">
+      <g
+         transform="translate(0,-60)"
+         id="g1018">
+        <rect
+           style="opacity:0.75;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:45.62071991;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect978"
+           width="148"
+           height="54"
+           x="1046"
+           y="783"
+           ry="9"
+           rx="10" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1066.3665"
+           y="821.18402"
+           id="text982"><tspan
+             sodipodi:role="line"
+             id="tspan980"
+             x="1066.3665"
+             y="821.18402">Launch</tspan></text>
+      </g>
+      <g
+         transform="translate(8,-60)"
+         id="g1013">
+        <rect
+           style="display:inline;opacity:0.75;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:45.62071991;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect978-7"
+           width="148"
+           height="54"
+           x="1198"
+           y="783"
+           ry="9"
+           rx="10" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:125%;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1248.365"
+           y="804.15466"
+           id="text982-4"><tspan
+             sodipodi:role="line"
+             id="tspan980-1"
+             x="1248.365"
+             y="804.15466">View</tspan><tspan
+             sodipodi:role="line"
+             x="1248.365"
+             y="830.82135"
+             id="tspan1005">Code</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1223">
+      <rect
+         y="840"
+         x="1200"
+         height="120"
+         width="400"
+         id="rect1007"
+         style="opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:40.55535126;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         y="846"
+         x="1208"
+         height="108"
+         width="160"
+         id="rect1007-1"
+         style="display:inline;opacity:0.75;fill:#512e1d;fill-opacity:1;stroke:none;stroke-width:24.33320999;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         y="846.89111"
+         x="1431.6633"
+         height="108"
+         width="160"
+         id="rect1007-1-5"
+         style="display:inline;opacity:0.75;fill:#512e1d;fill-opacity:1;stroke:none;stroke-width:24.33320999;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text1067-0"
+         y="893.43378"
+         x="1511.4109"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:125%;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="893.43378"
+           x="1511.4109"
+           id="tspan1065-8"
+           sodipodi:role="line">Next</tspan><tspan
+           id="tspan1069-0"
+           y="916.76709"
+           x="1511.4109"
+           sodipodi:role="line">Project</tspan></text>
+      <text
+         id="text1067-9"
+         y="893.02802"
+         x="1287.9829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:125%;font-family:'Bree Serif';-inkscape-font-specification:'Bree Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="893.02802"
+           x="1287.9829"
+           id="tspan1065-4"
+           sodipodi:role="line">Previous</tspan><tspan
+           id="tspan1069-9"
+           y="916.36133"
+           x="1287.9829"
+           sodipodi:role="line">Project</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Big Portfolio Project Viewer Doors"
+     style="display:none">
+    <path
+       style="display:inline;opacity:0.8;fill:#333333;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1200,60 720,1020 H 1840 V 60 Z"
+       id="rect1489"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="display:inline;opacity:0.8;fill:#333333;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 719.99995,1020 1200,60 H 80 v 960 z"
+       id="rect1489-6" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Small Portfolio Project Viewer"
+     style="display:none">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1418"
+       width="1600"
+       height="840"
+       x="160"
+       y="120" />
+    <g
+       id="g1169">
+      <g
+         transform="translate(-80,-120)"
+         id="g1543">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048"
+         y="227.10654"
+         x="358.27148"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="358.27148"
+           id="tspan1046"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086"
+         y="543.60901"
+         x="307.40103"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="307.40103"
+           id="tspan1084"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124"
+         y="646.64453"
+         x="251.56859"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="251.56859"
+           id="tspan1122"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       id="g1180">
+      <g
+         id="g1543-8"
+         transform="translate(293.33338,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-9"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-7"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-6"
+         y="227.10654"
+         x="731.60486"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="731.60486"
+           id="tspan1046-2"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-1"
+         y="543.60901"
+         x="680.73444"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="680.73444"
+           id="tspan1084-3"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-0"
+         y="646.64453"
+         x="625.10223"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="625.10223"
+           id="tspan1122-2"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       id="g1204">
+      <g
+         id="g1543-9"
+         transform="translate(666.66675,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-4"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-78"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-4"
+         y="227.10654"
+         x="1104.9382"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="1104.9382"
+           id="tspan1046-5"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-3"
+         y="543.60901"
+         x="1054.0677"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="1054.0677"
+           id="tspan1084-37"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-9"
+         y="646.64453"
+         x="999.95007"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="999.95007"
+           id="tspan1122-9"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       id="g1215">
+      <g
+         id="g1543-1"
+         transform="translate(1040,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-7"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-4"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-2"
+         y="227.10654"
+         x="1478.2715"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="1478.2715"
+           id="tspan1046-7"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-0"
+         y="543.60901"
+         x="1427.401"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="1427.401"
+           id="tspan1084-2"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-8"
+         y="646.64453"
+         x="1372.5339"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="1372.5339"
+           id="tspan1122-4"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       transform="translate(0,517.14286)"
+       style="display:inline"
+       id="g1169-9">
+      <g
+         transform="translate(-80,-120)"
+         id="g1543-4">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-1"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-0"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-5"
+         y="227.10654"
+         x="358.27148"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="358.27148"
+           id="tspan1046-4"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-18"
+         y="543.60901"
+         x="307.40103"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="307.40103"
+           id="tspan1084-8"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-2"
+         y="646.64453"
+         x="251.56859"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="251.56859"
+           id="tspan1122-7"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       transform="translate(0,517.14286)"
+       style="display:inline"
+       id="g1180-0">
+      <g
+         id="g1543-8-9"
+         transform="translate(293.33338,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-9-3"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-7-4"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-6-5"
+         y="227.10654"
+         x="731.60486"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="731.60486"
+           id="tspan1046-2-8"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-1-7"
+         y="543.60901"
+         x="680.73444"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="680.73444"
+           id="tspan1084-3-4"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-0-9"
+         y="646.64453"
+         x="625.10223"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="625.10223"
+           id="tspan1122-2-9"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       transform="translate(0,517.14286)"
+       style="display:inline"
+       id="g1204-9">
+      <g
+         id="g1543-9-3"
+         transform="translate(666.66675,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-4-2"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-78-5"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-4-9"
+         y="227.10654"
+         x="1104.9382"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="1104.9382"
+           id="tspan1046-5-4"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-3-6"
+         y="543.60901"
+         x="1054.0677"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="1054.0677"
+           id="tspan1084-37-9"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-9-6"
+         y="646.64453"
+         x="999.95007"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="999.95007"
+           id="tspan1122-9-6"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+    <g
+       transform="translate(0,517.14286)"
+       style="display:inline"
+       id="g1215-3">
+      <g
+         id="g1543-1-7"
+         transform="translate(1040,-120)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1424-7-8"
+           width="320"
+           height="480"
+           x="320"
+           y="300" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1485-4-9"
+           width="256"
+           height="256"
+           x="352"
+           y="364" />
+      </g>
+      <text
+         id="text1048-2-3"
+         y="227.10654"
+         x="1478.2715"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="227.10654"
+           x="1478.2715"
+           id="tspan1046-7-6"
+           sodipodi:role="line">Title</tspan></text>
+      <text
+         id="text1086-0-0"
+         y="543.60901"
+         x="1427.401"
+         style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="543.60901"
+           x="1427.401"
+           id="tspan1084-2-2"
+           sodipodi:role="line">Short Description</tspan></text>
+      <text
+         id="text1124-8-3"
+         y="646.64453"
+         x="1372.5339"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="646.64453"
+           x="1372.5339"
+           id="tspan1122-4-8"
+           sodipodi:role="line">Made With</tspan></text>
+    </g>
+  </g>
+</svg>
