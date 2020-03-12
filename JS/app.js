@@ -39,7 +39,9 @@ app.get('/', (request, response) => {
 app.post(`/contact.html`, (request, response) => {
   console.log(request.body);
   const yourEmail = new Email(request.body.fName, request.body.lName, request.body.email, request.body.subject, request.body.message);
-  yourEmail.sendEmail();
+  yourEmail.sendEmail().catch((error) =>{
+    console.log(error);
+  });
   response.sendFile(path.join(__dirname, '../public/contact.html'));
 });
 
