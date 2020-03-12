@@ -45,6 +45,9 @@ module.exports = class Email {
       auth: {
         username: process.env.MAILTRAP_USERNAME,
         password: process.env.MAILTRAP_PASSWORD
+      },
+      tls: {
+        rejectUnauthorized: false
       }
     });
   }
