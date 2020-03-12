@@ -19,6 +19,8 @@ app.use(
   })
 );
 
+app.set(`view engine`, `pug`);
+
 // My routing likely will need to really involve exactly what pages I intend on getting to.  Hopefully, I also may not even need to recreate them, but if I do, I will.
 
 /* Read File Syncronously Before The Event Loop From JSON Data*/

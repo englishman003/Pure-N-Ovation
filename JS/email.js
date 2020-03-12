@@ -1,23 +1,6 @@
-const express = require(`express`);
 const nodemailer = require(`nodemailer`);
 const pug = require(`pug`);
 const htmlToText = require(`html-to-text`);
-const app = require(`./app`);
-const path = require(`path`);
-
-app.set(`view engine`, `pug`);
-app.use(`../`, express.static(path.join(__dirname, `public`)));
-
-app.use(express.json());
-app.use(
-  express.urlencoded({
-    extended: true
-  })
-);
-
-app.post(`/contact.html`, (req, res) => {
-  console.log(req.body);
-});
 
 // new Email(firstName, lastName, emailAddress, subject, message).sendEmail();
 
@@ -94,31 +77,3 @@ module.exports = class Email {
     await this.send(`userEmail`);
   }
 };
-
-// const Email = require(`./email`);
-
-// const sendMessage = document.getElementById(`sendMessage`);
-
-// const first = document.getElementById(`fName`).value;
-// const last = document.getElementById(`lName`).value;
-// const emailValue = document.getElementById(`email`).value;
-// const subjectValue = document.getElementById(`subject`).value;
-// const messageValue = document.getElementById(`message`).value;
-
-// sendMessage.addEventListener('click', () => {
-//   let yourEmail = new Email(first, last, emailValue, subjectValue, messageValue);
-//   yourEmail.sendEmail();
-//   console.log(`My Goodness An Email!`);
-//   alert(`An Email Was Sent!`);
-// });
-
-// app.post('/submitForm', express.urlencoded, (req, res) => {
-//   const First = req.body.fName;
-//   const Last = req.body.lName;
-//   const EMAIL = req.body.email;
-//   const Subject = req.body.subject;
-//   const Message = req.body.message;
-//   console.log(req.body);
-//   alert(req.body);
-//   return res.send(req.body);
-// });
