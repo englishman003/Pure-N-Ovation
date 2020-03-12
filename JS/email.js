@@ -36,7 +36,10 @@ module.exports = class Email {
         auth: {
           user: process.env.SENDGRID_USERNAME,
           pass: process.env.SENDGRID_PASSWORD
-        }
+        },
+        tls: {
+        rejectUnauthorized: false
+      }
       });
     }
     return nodemailer.createTransport({
@@ -45,6 +48,9 @@ module.exports = class Email {
       auth: {
         username: process.env.MAILTRAP_USERNAME,
         password: process.env.MAILTRAP_PASSWORD
+      },
+      tls: {
+        rejectUnauthorized: false
       }
     });
   }
@@ -54,7 +60,7 @@ module.exports = class Email {
   // Send The Actual Email
   async send(template) {
     // Render the HTML based on a pug template.
-    const html = pug.renderFile(`${__dirname}/../views/${template}.pug}`, {
+    const html = pug.renderFile(`${__dirname}/../views/userEmail.pug`, {
       firstName: this.firstName,
       lastName: this.lastName,
       subject: this.subject,
