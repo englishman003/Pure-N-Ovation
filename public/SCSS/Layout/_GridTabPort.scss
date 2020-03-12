@@ -1,0 +1,11 @@
+/////////////////////////////////////////////////
+////      Grid For Tablet In Portrait View
+.gridTabPort {
+    display: grid;
+   // Grid Layout Order - Height / Width / Grid-Columns & Their Spans / Grid-Rows & Their Spans / Grid-Column-Gap / Grid-Row-Gap
+   @include gridLayout(100%, 100%, repeat(12, 1fr), repeat(18, 1fr), 0, 0);
+      }
+
+/////////////////////////////////////////////////
+////  Grid Placement For Tablets Portrait View
+@include gridPlacement(12, 12, 18, 18);
