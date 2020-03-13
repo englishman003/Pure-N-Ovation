@@ -36,14 +36,6 @@ app.get('/', (request, response) => {
   return response.sendFile(`${__dirname}/../public/index.html`);
 });
 
-app.post(`/contact.html`, (request, response) => {
-  console.log(request.body);
-  const yourEmail = new Email(request.body.fName, request.body.lName, request.body.email, request.body.subject, request.body.message);
-  yourEmail.sendEmail().catch((error) =>{
-    console.log(error);
-  });
-  response.sendFile(path.join(__dirname, '../public/contact.html'));
-});
 
 /*  This is what Jonas Did For The API Get Method With JSON Data */
 // app.get('api/vq/tours', (request, response) => {
@@ -70,23 +62,11 @@ app.listen(port, () => {
   console.log(`The application is now running on port: ${port}`);
 });
 
-// // const Email = require(`./email`);
-// // const nodemailer = require(`./../node_modules/nodemailer`);
-// // const pug = require(`pug`);
-// // const htmlToText = require(`html-to-text`);
-
-// app.set(`view engine`, `pug`);
-// app.set(`views`, path.join(__dirname, 'views'));
-// // Serving Static Files
-// app.use(`../`, express.static(path.join(__dirname, `public`)));
-
-// app.get(`/`, (req, res) => {
-//   res.status(200).render(`${__dirname}/../views/userEmail`);
-// });
-
-// app.post(`/submitForm`, (req, res) => {
-//   console.log(req.body);
-//   res.send(req.body);
-// });
-
-// module.exports = app;
+app.post(`/contact.html`, (request, response) => {
+  console.log(request.body);
+  const yourEmail = new Email(request.body.fName, request.body.lName, request.body.email, request.body.subject, request.body.message);
+  yourEmail.sendEmail().catch((error) =>{
+    console.log(error);
+  });
+  response.sendFile(path.join(__dirname, '../public/contact.html'));
+});

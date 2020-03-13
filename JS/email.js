@@ -1,6 +1,6 @@
-const nodemailer = require(`nodemailer`);
-const pug = require(`pug`);
-const htmlToText = require(`html-to-text`);
+const nodemailer = require('nodemailer');
+const pug = require('pug');
+const htmlToText = require('html-to-text');
 
 // new Email(firstName, lastName, emailAddress, subject, message).sendEmail();
 
@@ -36,10 +36,7 @@ module.exports = class Email {
         auth: {
           user: process.env.SENDGRID_USERNAME,
           pass: process.env.SENDGRID_PASSWORD
-        },
-        tls: {
-        rejectUnauthorized: false
-      }
+        }
       });
     }
     return nodemailer.createTransport({
@@ -49,9 +46,9 @@ module.exports = class Email {
         username: process.env.MAILTRAP_USERNAME,
         password: process.env.MAILTRAP_PASSWORD
       },
-      tls: {
-        rejectUnauthorized: false
-      }
+      // tls: {
+      //   rejectUnauthorized: false
+      // }
     });
   }
 
