@@ -1,6 +1,10 @@
 const nodemailer = require('nodemailer');
 const pug = require('pug');
 const htmlToText = require('html-to-text');
+const dotenv = require('dotenv');
+dotenv.config({
+  path: './config.env'
+});
 
 // new Email(firstName, lastName, emailAddress, subject, message).sendEmail();
 
@@ -36,6 +40,9 @@ module.exports = class Email {
         auth: {
           user: process.env.SENDGRID_USERNAME,
           pass: process.env.SENDGRID_PASSWORD
+        },
+        tls: {
+          rejectUnauthorized: false
         }
       });
     }
@@ -43,12 +50,12 @@ module.exports = class Email {
       host: process.env.MAILTRAP_HOST,
       port: process.env.MAILTRAP_PORT,
       auth: {
-        username: process.env.MAILTRAP_USERNAME,
-        password: process.env.MAILTRAP_PASSWORD
+        user: process.env.MAILTRAP_USERNAME,
+        pass: process.env.MAILTRAP_PASSWORD
       },
-      // tls: {
-      //   rejectUnauthorized: false
-      // }
+      tls: {
+        rejectUnauthorized: false
+      }
     });
   }
 
@@ -57,7 +64,7 @@ module.exports = class Email {
   // Send The Actual Email
   async send(template) {
     // Render the HTML based on a pug template.
-    const html = pug.renderFile(`${__dirname}/../views/userEmail.pug`, {
+    const html = pug.renderFile(`${__dirname}/../views/${template}.pug`, {
       firstName: this.firstName,
       lastName: this.lastName,
       subject: this.subject,

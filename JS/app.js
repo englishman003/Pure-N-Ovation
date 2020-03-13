@@ -3,13 +3,16 @@ const http = require('http');
 const url = require('url');
 const express = require('express');
 const path = require(`path`);
+const dotenv = require('dotenv');
 const Email = require('./email');
-
+dotenv.config({
+  path: './config.env'
+});
 /////////////////////////////////
 //  Start The Express App
 const app = express();
 
-
+console.log(process.env);
 /////////////////////////////////
 //  Middleware
 app.use(express.json());
@@ -57,7 +60,7 @@ app.get('/', (request, response) => {
 
 /////////////////////////////////
 //  Start The Server
-const port = 3333;
+const port = process.env.PORT || 3333;
 app.listen(port, () => {
   console.log(`The application is now running on port: ${port}`);
 });
@@ -65,8 +68,12 @@ app.listen(port, () => {
 app.post(`/contact.html`, (request, response) => {
   console.log(request.body);
   const yourEmail = new Email(request.body.fName, request.body.lName, request.body.email, request.body.subject, request.body.message);
+  console.log(process.env.MAILTRAP_PORT);
+  console.log(process.env.MAILTRAP_HOST);
+  console.log(process.env.MAILTRAP_USERNAME);
+  console.log(process.env.MAILTRAP_PASSWORD);
   yourEmail.sendEmail().catch((error) =>{
-    console.log(error);
+    console.log(`${error.message} - Your Email Was Not Sent!`);
   });
   response.sendFile(path.join(__dirname, '../public/contact.html'));
 });
