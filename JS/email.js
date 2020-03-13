@@ -60,10 +60,7 @@ module.exports = class Email {
         service: 'SendGrid',
         auth: {
           user: process.env.SENDGRID_USERNAME,
-          pass: process.env.SENDGRID_PASSWORD
-        },
-        tls: {
-          rejectUnauthorized: false
+          pass: process.env.SENDGRID_HASHED_PASSWORD
         }
       });
     }
