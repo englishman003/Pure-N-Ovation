@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
     "express": "^4.17.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mongoose": "^5.9.4",
     "node-sass": "^4.13.1",
     "nodemailer": "^6.4.5",
